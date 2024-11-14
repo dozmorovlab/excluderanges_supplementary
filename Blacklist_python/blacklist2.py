@@ -2,7 +2,7 @@
 blacklist2.py
 improved blacklist generation
 
-Copyright (c) 2023 Brydon Wall
+Copyright (c) 2024 Brydon P. G. Wall
 
 Original Blacklist by Alan Boyle
 
