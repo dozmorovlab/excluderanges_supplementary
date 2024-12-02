@@ -1,0 +1,794 @@
+chr1	0	823300	High Signal Region, Low Mappability	566	169	397
+chr1	1015300	1031400	High Signal Region	10	0	10
+chr1	2651400	2777600	High Signal Region, Low Mappability	402	240	162
+chr1	4302100	4304100	High Signal Region	8	0	8
+chr1	16494900	16918500	High Signal Region, Low Mappability	120	62	58
+chr1	31430900	31433000	Low Mappability	8	8	0
+chr1	91370900	91388400	Low Mappability	12	12	0
+chr1	103594300	103760800	High Signal Region	10	0	10
+chr1	119989700	120104500	High Signal Region	30	0	30
+chr1	120126000	120952300	High Signal Region, Low Mappability	61	1	60
+chr1	121604300	124941100	High Signal Region, Low Mappability	477	465	12
+chr1	125060600	143563600	High Signal Region, Low Mappability	2328	1167	1161
+chr1	143727900	143742000	High Signal Region	6	0	6
+chr1	143766300	145458400	High Signal Region, Low Mappability	186	34	152
+chr1	145491300	145522000	High Signal Region	7	0	7
+chr1	146034800	146579200	High Signal Region	58	0	58
+chr1	148052400	148141800	High Signal Region	5	0	5
+chr1	148168500	148303300	High Signal Region	2	0	2
+chr1	148441500	149900000	High Signal Region, Low Mappability	117	1	116
+chr1	161422300	161473200	High Signal Region, Low Mappability	415	290	125
+chr1	165751500	165770000	High Signal Region	10	0	10
+chr1	168348000	168354500	High Signal Region	7	0	7
+chr1	210652900	210655100	High Signal Region	7	0	7
+chr1	224010800	224025900	High Signal Region, Low Mappability	58	11	47
+chr1	228557100	228646700	High Signal Region	38	0	38
+chr1	230871100	230873000	High Signal Region	1	0	1
+chr1	236096200	236098300	Low Mappability	9	9	0
+chr1	237602200	237606600	Low Mappability	8	8	0
+chr1	237944000	237946600	Low Mappability	4	4	0
+chr1	248383300	248409600	Low Mappability	1	1	0
+chr1	248930600	248956400	Low Mappability	7	7	0
+chr2	1221500	1224100	Low Mappability	14	14	0
+chr2	3179500	3182100	High Signal Region, Low Mappability	16	8	8
+chr2	3218100	3241600	Low Mappability	10	10	0
+chr2	7487600	7489900	Low Mappability	8	8	0
+chr2	9405300	9425500	Low Mappability	6	6	0
+chr2	10952800	10954900	Low Mappability	9	9	0
+chr2	13735800	13737700	High Signal Region	4	0	4
+chr2	32915300	32918400	High Signal Region, Low Mappability	24	12	12
+chr2	33766500	33768400	Low Mappability	10	10	0
+chr2	49228700	49230700	High Signal Region, Low Mappability	12	11	1
+chr2	64359400	64377000	Low Mappability	9	9	0
+chr2	73778800	73830300	High Signal Region	56	0	56
+chr2	86898000	87077800	High Signal Region, Low Mappability	240	53	187
+chr2	87117900	87163000	High Signal Region	11	0	11
+chr2	87183600	87185900	Low Mappability	8	8	0
+chr2	87265000	87432000	High Signal Region, Low Mappability	39	32	7
+chr2	87662500	87932200	High Signal Region, Low Mappability	213	72	141
+chr2	89256300	89946200	High Signal Region, Low Mappability	1196	435	761
+chr2	90234400	91738300	High Signal Region, Low Mappability	1197	569	628
+chr2	91773600	91978900	High Signal Region, Low Mappability	8	5	3
+chr2	92000200	94748400	High Signal Region, Low Mappability	234	59	175
+chr2	94898200	94900100	Low Mappability	10	10	0
+chr2	96739000	96777800	High Signal Region	10	0	10
+chr2	97114200	97616000	High Signal Region	1	0	1
+chr2	106378400	106471800	High Signal Region, Low Mappability	118	72	46
+chr2	107828000	107906000	High Signal Region, Low Mappability	104	64	40
+chr2	108493100	108536200	Low Mappability	7	7	0
+chr2	108718500	108771700	Low Mappability	5	5	0
+chr2	109198400	109200800	High Signal Region	6	0	6
+chr2	109744500	110095400	High Signal Region, Low Mappability	197	177	20
+chr2	110204000	110627100	High Signal Region, Low Mappability	196	186	10
+chr2	112346000	112445500	High Signal Region, Low Mappability	244	81	163
+chr2	113389900	113646000	High Signal Region, Low Mappability	257	255	2
+chr2	114083600	114085800	Low Mappability	5	5	0
+chr2	120390500	120392600	Low Mappability	9	9	0
+chr2	130401200	130716200	High Signal Region	36	0	36
+chr2	132068700	132288700	Low Mappability	78	78	0
+chr2	148880800	148882800	High Signal Region, Low Mappability	21	10	11
+chr2	151579400	151609200	High Signal Region	11	0	11
+chr2	155263100	155265000	Low Mappability	10	10	0
+chr2	157368700	157380500	High Signal Region	3	0	3
+chr2	161277700	161283500	High Signal Region, Low Mappability	50	19	31
+chr2	197687600	197707900	High Signal Region	10	0	10
+chr2	211775200	211777100	Low Mappability	10	10	0
+chr2	229179800	229181800	Low Mappability	8	8	0
+chr2	239526700	239528700	Low Mappability	6	6	0
+chr2	239641900	239645800	Low Mappability	11	11	0
+chr2	241589500	241591700	Low Mappability	2	2	0
+chr2	242084000	242086200	Low Mappability	5	5	0
+chr2	242140300	242193500	High Signal Region, Low Mappability	88	61	27
+chr3	0	11700	High Signal Region, Low Mappability	27	12	15
+chr3	875400	877500	Low Mappability	9	9	0
+chr3	6698900	6700900	Low Mappability	5	5	0
+chr3	10114800	10117400	High Signal Region	2	0	2
+chr3	11271100	11306300	High Signal Region	2	0	2
+chr3	14090900	14092600	High Signal Region	1	0	1
+chr3	14633500	14652900	High Signal Region	4	0	4
+chr3	15097700	15146600	High Signal Region, Low Mappability	103	99	4
+chr3	15599900	15603000	High Signal Region	11	0	11
+chr3	16246700	16266400	High Signal Region	2	0	2
+chr3	22381100	22383500	Low Mappability	8	8	0
+chr3	26384700	26404100	High Signal Region	4	0	4
+chr3	31643800	31649200	High Signal Region	10	0	10
+chr3	33437500	33454900	High Signal Region	3	0	3
+chr3	36957800	36994900	High Signal Region	12	0	12
+chr3	37906000	38040500	High Signal Region	4	0	4
+chr3	38072300	38088400	High Signal Region	10	0	10
+chr3	38117600	38166100	High Signal Region	4	0	4
+chr3	39872400	39874800	High Signal Region	3	0	3
+chr3	41960600	41963400	High Signal Region	2	0	2
+chr3	47198600	47200500	High Signal Region	2	0	2
+chr3	49670800	49697100	High Signal Region, Low Mappability	20	11	9
+chr3	50291700	50360700	High Signal Region	6	0	6
+chr3	51526200	51540500	High Signal Region	3	0	3
+chr3	52535500	52538400	High Signal Region	1	0	1
+chr3	53841100	53843100	High Signal Region	9	0	9
+chr3	57554900	57558100	High Signal Region	1	0	1
+chr3	64695600	64697500	Low Mappability	10	10	0
+chr3	68658100	68660000	High Signal Region	10	0	10
+chr3	69050700	69053500	High Signal Region	4	0	4
+chr3	75214000	75216200	Low Mappability	3	3	0
+chr3	75346400	75875800	High Signal Region, Low Mappability	328	257	71
+chr3	80440900	80443100	High Signal Region	3	0	3
+chr3	81013600	81016100	Low Mappability	4	4	0
+chr3	90300000	91286000	High Signal Region, Low Mappability	815	34	781
+chr3	91312500	93805800	High Signal Region, Low Mappability	395	66	329
+chr3	96603600	96619400	High Signal Region, Low Mappability	37	21	16
+chr3	98765500	98779500	High Signal Region	10	0	10
+chr3	100253500	100270300	High Signal Region	2	0	2
+chr3	100399400	100402800	High Signal Region	5	0	5
+chr3	101674900	101753600	High Signal Region	6	0	6
+chr3	103673800	103675700	High Signal Region	10	0	10
+chr3	114055600	114057900	High Signal Region	7	0	7
+chr3	119462500	119470400	High Signal Region	8	0	8
+chr3	120092500	120114600	High Signal Region	3	0	3
+chr3	120416000	120420300	High Signal Region	2	0	2
+chr3	120558000	120603700	High Signal Region	4	0	4
+chr3	120719400	120761100	High Signal Region	6	0	6
+chr3	121748100	121751200	High Signal Region	5	0	5
+chr3	122382200	122417600	High Signal Region	10	0	10
+chr3	122792800	122796600	High Signal Region	1	0	1
+chr3	124435800	124438000	Low Mappability	9	9	0
+chr3	124549700	124566300	High Signal Region	2	0	2
+chr3	125687400	125942400	Low Mappability	138	138	0
+chr3	128050800	128125300	High Signal Region	1	0	1
+chr3	128444500	128447200	High Signal Region	10	0	10
+chr3	129423700	129442300	High Signal Region	1	0	1
+chr3	129998700	130066800	Low Mappability	10	10	0
+chr3	130088700	130213300	Low Mappability	327	327	0
+chr3	131726500	131728400	High Signal Region	10	0	10
+chr3	136194100	136198200	High Signal Region	3	0	3
+chr3	138556600	138595900	High Signal Region	3	0	3
+chr3	141302800	141336000	High Signal Region	9	0	9
+chr3	142554200	142556100	High Signal Region	10	0	10
+chr3	142993300	143005300	High Signal Region	8	0	8
+chr3	143516600	143518700	Low Mappability	2	2	0
+chr3	150545900	150548200	High Signal Region	1	0	1
+chr3	155851900	155872500	High Signal Region	7	0	7
+chr3	157080800	157176400	High Signal Region	12	0	12
+chr3	158097500	158111600	High Signal Region	3	0	3
+chr3	160946700	160948700	Low Mappability	11	11	0
+chr3	170804500	170824100	Low Mappability	10	10	0
+chr3	170868800	170882500	High Signal Region	5	0	5
+chr3	172664300	172723100	High Signal Region	4	0	4
+chr3	179603600	179605900	High Signal Region	6	0	6
+chr3	183016600	183019300	High Signal Region, Low Mappability	18	13	5
+chr3	183955400	183958800	Low Mappability	12	12	0
+chr3	186863300	186867800	High Signal Region	10	0	10
+chr3	190473500	190475900	Low Mappability	8	8	0
+chr3	193591900	193594600	High Signal Region	4	0	4
+chr3	194314200	194344600	High Signal Region	30	0	30
+chr3	194670700	194689800	High Signal Region	1	0	1
+chr3	194844800	194847300	Low Mappability	4	4	0
+chr3	195091400	195111800	High Signal Region	4	0	4
+chr3	195477600	195506900	High Signal Region, Low Mappability	146	145	1
+chr3	195599000	195788900	High Signal Region, Low Mappability	319	178	141
+chr3	195816000	195820700	Low Mappability	4	4	0
+chr3	195850200	196028700	High Signal Region, Low Mappability	179	152	27
+chr3	196249100	196318100	Low Mappability	11	11	0
+chr3	197030000	197035800	Low Mappability	4	4	0
+chr3	197364400	197469700	High Signal Region, Low Mappability	69	24	45
+chr3	197581000	197681200	High Signal Region, Low Mappability	167	146	21
+chr3	197905600	197922400	Low Mappability	7	7	0
+chr3	197948600	197978500	High Signal Region	10	0	10
+chr3	198098800	198295500	High Signal Region, Low Mappability	399	228	171
+chr4	0	69700	High Signal Region, Low Mappability	251	9	242
+chr4	554100	566200	Low Mappability	6	6	0
+chr4	1396800	1399400	High Signal Region, Low Mappability	12	10	2
+chr4	1429300	1469000	High Signal Region	1	0	1
+chr4	7362200	7364800	Low Mappability	4	4	0
+chr4	8619900	8637400	High Signal Region	20	0	20
+chr4	8952900	9424400	High Signal Region	71	0	71
+chr4	10903800	10905700	High Signal Region	10	0	10
+chr4	27729500	27731500	Low Mappability	9	9	0
+chr4	37746100	37763300	High Signal Region	10	0	10
+chr4	38728000	38755100	High Signal Region	1	0	1
+chr4	40291700	40336500	High Signal Region	9	0	9
+chr4	49090300	51857600	High Signal Region, Low Mappability	2895	1621	1274
+chr4	55311800	55357900	High Signal Region, Low Mappability	20	10	10
+chr4	64607200	64609100	High Signal Region	10	0	10
+chr4	69379100	69431900	Low Mappability	10	10	0
+chr4	77993700	78009600	Low Mappability	11	11	0
+chr4	109624000	109632100	High Signal Region	10	0	10
+chr4	116297300	116299200	Low Mappability	10	10	0
+chr4	118418400	118686800	High Signal Region, Low Mappability	44	36	8
+chr4	128080800	128082700	High Signal Region, Low Mappability	20	10	10
+chr4	146285200	146287800	Low Mappability	9	9	0
+chr4	155441600	155466000	Low Mappability	10	10	0
+chr4	162420500	162422500	Low Mappability	10	10	0
+chr4	166570600	166581500	Low Mappability	13	13	0
+chr4	186625200	186627900	Low Mappability	2	2	0
+chr4	189232100	189236000	Low Mappability	6	6	0
+chr4	189819700	189849800	Low Mappability	9	9	0
+chr4	189875500	190214500	High Signal Region, Low Mappability	311	97	214
+chr5	188100	220500	Low Mappability	7	7	0
+chr5	251500	302600	Low Mappability	6	6	0
+chr5	551500	565700	Low Mappability	10	10	0
+chr5	1326600	1334700	Low Mappability	12	12	0
+chr5	3322200	3325100	Low Mappability	8	8	0
+chr5	14346200	14365700	Low Mappability	9	9	0
+chr5	17497600	17600400	High Signal Region, Low Mappability	506	313	193
+chr5	17630500	17634700	Low Mappability	13	13	0
+chr5	21271500	21390400	Low Mappability	5	5	0
+chr5	21477900	21523400	High Signal Region	5	0	5
+chr5	34130000	34256500	High Signal Region, Low Mappability	27	11	16
+chr5	46326200	50145200	High Signal Region, Low Mappability	316	169	147
+chr5	60760600	60762500	Low Mappability	10	10	0
+chr5	69538900	71364600	High Signal Region, Low Mappability	2309	1020	1289
+chr5	71834800	71853000	Low Mappability	10	10	0
+chr5	80649100	80653100	High Signal Region, Low Mappability	50	28	22
+chr5	85640700	85662700	High Signal Region	11	0	11
+chr5	94567100	94570900	High Signal Region, Low Mappability	31	11	20
+chr5	100045500	100076600	High Signal Region, Low Mappability	79	50	29
+chr5	123760300	123762200	Low Mappability	10	10	0
+chr5	134922500	134929400	High Signal Region, Low Mappability	94	34	60
+chr5	176573800	176593000	Low Mappability	9	9	0
+chr5	177960500	177981300	Low Mappability	12	12	0
+chr5	181045100	181047100	Low Mappability	8	8	0
+chr5	181158800	181538200	High Signal Region, Low Mappability	73	50	23
+chr6	0	162400	High Signal Region, Low Mappability	557	279	278
+chr6	257000	397700	High Signal Region, Low Mappability	30	27	3
+chr6	861800	864000	High Signal Region	7	0	7
+chr6	1052800	1054800	High Signal Region	7	0	7
+chr6	1904700	1928200	Low Mappability	7	7	0
+chr6	3153000	3183000	High Signal Region	2	0	2
+chr6	3207800	3282700	High Signal Region	3	0	3
+chr6	10785500	10801900	Low Mappability	6	6	0
+chr6	21550500	21599500	High Signal Region	10	0	10
+chr6	25074200	25076100	High Signal Region	5	0	5
+chr6	26079500	26127600	High Signal Region	1	0	1
+chr6	26155000	26342700	High Signal Region	4	0	4
+chr6	26522400	26608500	High Signal Region	1	0	1
+chr6	26659200	27021300	High Signal Region, Low Mappability	581	359	222
+chr6	27471400	27520400	High Signal Region	1	0	1
+chr6	30596600	30648500	High Signal Region	5	0	5
+chr6	30672100	30783000	High Signal Region	10	0	10
+chr6	31538200	31549200	High Signal Region	8	0	8
+chr6	31768900	31838400	High Signal Region	17	0	17
+chr6	32152400	32197800	High Signal Region	6	0	6
+chr6	34055100	34074100	High Signal Region	22	0	22
+chr6	41920000	41975800	High Signal Region	10	0	10
+chr6	44035000	44183100	High Signal Region, Low Mappability	29	12	17
+chr6	57046000	57048900	High Signal Region	8	0	8
+chr6	57089000	57092100	High Signal Region	8	0	8
+chr6	57769800	57965700	High Signal Region, Low Mappability	63	32	31
+chr6	58446900	60318000	High Signal Region, Low Mappability	229	39	190
+chr6	61320300	61492300	High Signal Region, Low Mappability	43	9	34
+chr6	61573200	61575500	Low Mappability	10	10	0
+chr6	63228500	63232500	Low Mappability	2	2	0
+chr6	73514500	73522800	Low Mappability	10	10	0
+chr6	87679500	87732300	High Signal Region	10	0	10
+chr6	96328800	96330700	Low Mappability	10	10	0
+chr6	103708500	103715000	High Signal Region	3	0	3
+chr6	110981100	110984700	High Signal Region	10	0	10
+chr6	115254900	115256800	High Signal Region	6	0	6
+chr6	119236500	119238400	High Signal Region	10	0	10
+chr6	131697600	131716300	High Signal Region, Low Mappability	39	24	15
+chr6	138189100	138201800	High Signal Region	10	0	10
+chr6	143212600	143214600	High Signal Region	10	0	10
+chr6	143449400	143469700	High Signal Region	5	0	5
+chr6	143799800	143801800	High Signal Region	10	0	10
+chr6	144094400	144097000	High Signal Region	3	0	3
+chr6	146637600	146639600	High Signal Region	9	0	9
+chr6	150775600	150778600	Low Mappability	10	10	0
+chr6	157309500	157324800	High Signal Region, Low Mappability	94	46	48
+chr6	159691200	159727400	Low Mappability	7	7	0
+chr6	160212500	160233700	High Signal Region	5	0	5
+chr6	160606000	160714400	High Signal Region, Low Mappability	533	343	190
+chr6	164075600	164077700	Low Mappability	8	8	0
+chr6	166271700	166279900	High Signal Region	10	0	10
+chr6	166782900	166790100	Low Mappability	11	11	0
+chr6	167167100	167391100	Low Mappability	27	27	0
+chr6	167590400	167652800	High Signal Region	16	0	16
+chr6	168560400	168597200	Low Mappability	6	6	0
+chr6	168653300	168660800	High Signal Region	6	0	6
+chr6	169196100	169199000	Low Mappability	4	4	0
+chr6	169371000	169377700	High Signal Region	8	0	8
+chr6	169892100	169902700	Low Mappability	5	5	0
+chr6	170145300	170147200	High Signal Region	8	0	8
+chr6	170376200	170401100	High Signal Region, Low Mappability	35	25	10
+chr6	170452600	170530800	High Signal Region, Low Mappability	14	13	1
+chr6	170606100	170805900	High Signal Region, Low Mappability	772	377	395
+chr7	0	74100	High Signal Region	27	0	27
+chr7	236800	241300	High Signal Region	4	0	4
+chr7	904700	907400	Low Mappability	10	10	0
+chr7	1271400	1273500	High Signal Region	4	0	4
+chr7	2376800	2378900	Low Mappability	2	2	0
+chr7	22509800	22534300	Low Mappability	2	2	0
+chr7	43962000	44041900	High Signal Region, Low Mappability	10	5	5
+chr7	45251000	45253000	Low Mappability	10	10	0
+chr7	45800600	45814600	Low Mappability	19	19	0
+chr7	54308500	54319000	High Signal Region	1	0	1
+chr7	55740600	55754500	Low Mappability	11	11	0
+chr7	56366400	56387000	High Signal Region, Low Mappability	75	53	22
+chr7	57485200	57497900	High Signal Region, Low Mappability	190	80	110
+chr7	57610500	57640900	High Signal Region	7	0	7
+chr7	57808900	57855000	High Signal Region	6	0	6
+chr7	58029600	60967200	High Signal Region, Low Mappability	905	483	422
+chr7	61017800	61075200	High Signal Region, Low Mappability	445	278	167
+chr7	61100500	61723700	High Signal Region	11	0	11
+chr7	62263700	62376400	High Signal Region, Low Mappability	484	220	264
+chr7	62400300	62409500	High Signal Region, Low Mappability	77	31	46
+chr7	62436500	62521400	High Signal Region, Low Mappability	178	113	65
+chr7	63291400	63551900	High Signal Region	1	0	1
+chr7	64645000	64652000	High Signal Region	10	0	10
+chr7	65488200	65586800	High Signal Region, Low Mappability	36	18	18
+chr7	67273100	67293700	Low Mappability	9	9	0
+chr7	72939700	73302700	High Signal Region	60	0	60
+chr7	74727700	74984700	High Signal Region	2	0	2
+chr7	75077300	75522300	High Signal Region, Low Mappability	54	11	43
+chr7	76521400	76552900	High Signal Region, Low Mappability	23	16	7
+chr7	76959400	77064300	High Signal Region, Low Mappability	16	5	11
+chr7	85249300	85255700	High Signal Region	2	0	2
+chr7	100951200	100968500	High Signal Region, Low Mappability	27	6	21
+chr7	100991800	101005000	High Signal Region, Low Mappability	100	86	14
+chr7	102341100	102397400	High Signal Region, Low Mappability	25	12	13
+chr7	102463800	102710600	High Signal Region, Low Mappability	190	39	151
+chr7	106100500	106102400	High Signal Region	1	0	1
+chr7	136972000	136974100	Low Mappability	2	2	0
+chr7	141801300	141806200	Low Mappability	10	10	0
+chr7	142664700	142668500	High Signal Region, Low Mappability	39	29	10
+chr7	143521900	143874600	High Signal Region	10	0	10
+chr7	144180300	144376900	High Signal Region	34	0	34
+chr7	145996400	146017200	High Signal Region	10	0	10
+chr7	155327900	155342400	Low Mappability	6	6	0
+chr7	158146300	158156000	High Signal Region, Low Mappability	27	20	7
+chr7	158594300	158596200	High Signal Region	10	0	10
+chr7	158914200	158918000	High Signal Region	1	0	1
+chr7	159202200	159204300	Low Mappability	7	7	0
+chr8	0	233900	High Signal Region, Low Mappability	386	155	231
+chr8	629100	631500	Low Mappability	5	5	0
+chr8	658400	696900	Low Mappability	2	2	0
+chr8	7083400	8241900	High Signal Region, Low Mappability	262	49	213
+chr8	12006100	12692400	High Signal Region, Low Mappability	437	112	325
+chr8	26918100	26920000	High Signal Region	10	0	10
+chr8	33010600	33016500	Low Mappability	10	10	0
+chr8	43236700	43244800	High Signal Region, Low Mappability	106	51	55
+chr8	43903900	45973200	High Signal Region, Low Mappability	110	7	103
+chr8	46828600	46832000	Low Mappability	14	14	0
+chr8	57203300	57216100	High Signal Region, Low Mappability	90	45	45
+chr8	67584500	67586400	High Signal Region, Low Mappability	20	10	10
+chr8	69688700	69691300	Low Mappability	11	11	0
+chr8	85642700	85829400	High Signal Region, Low Mappability	1353	937	416
+chr8	99494900	99496800	High Signal Region	10	0	10
+chr8	99532100	99534000	Low Mappability	10	10	0
+chr8	141491400	141493800	High Signal Region	4	0	4
+chr8	141871100	141875100	Low Mappability	5	5	0
+chr8	143660800	143685400	High Signal Region, Low Mappability	21	11	10
+chr8	143857300	143867000	High Signal Region	11	0	11
+chr8	143942600	143982900	Low Mappability	8	8	0
+chr8	144076900	144152200	High Signal Region	10	0	10
+chr8	144555800	144563000	Low Mappability	3	3	0
+chr8	144756900	144839800	Low Mappability	6	6	0
+chr9	0	89800	High Signal Region, Low Mappability	334	189	145
+chr9	33656600	33660000	High Signal Region, Low Mappability	26	19	7
+chr9	35912600	35915200	Low Mappability	13	13	0
+chr9	39144500	39453500	High Signal Region	6	0	6
+chr9	39593800	40865400	High Signal Region, Low Mappability	208	63	145
+chr9	40906700	41013300	Low Mappability	158	158	0
+chr9	41081200	41949700	High Signal Region, Low Mappability	271	153	118
+chr9	42495300	42693900	High Signal Region	2	0	2
+chr9	42969600	43107100	High Signal Region	5	0	5
+chr9	43263000	60526800	High Signal Region, Low Mappability	389	183	206
+chr9	60550100	61612700	High Signal Region	14	0	14
+chr9	61735300	64064300	High Signal Region, Low Mappability	612	367	245
+chr9	64134700	65383600	High Signal Region	98	0	98
+chr9	65486800	66792300	High Signal Region, Low Mappability	195	58	137
+chr9	66912200	68343600	High Signal Region, Low Mappability	91	13	78
+chr9	70037300	70039600	High Signal Region, Low Mappability	21	11	10
+chr9	80545000	80566700	Low Mappability	10	10	0
+chr9	113060600	113118500	High Signal Region, Low Mappability	172	95	77
+chr9	133018900	133021300	Low Mappability	4	4	0
+chr9	134182100	134185500	High Signal Region	5	0	5
+chr9	137327000	137330500	High Signal Region, Low Mappability	21	11	10
+chr9	137715200	137717400	Low Mappability	11	11	0
+chr9	138146100	138394700	High Signal Region, Low Mappability	100	25	75
+chr10	38440900	38759600	High Signal Region, Low Mappability	233	41	192
+chr10	38782500	38936500	High Signal Region, Low Mappability	137	50	87
+chr10	39509500	41714400	High Signal Region, Low Mappability	102	29	73
+chr10	41831600	42190100	High Signal Region, Low Mappability	1943	1084	859
+chr10	42211000	42338900	High Signal Region, Low Mappability	139	51	88
+chr10	126946400	126953100	Low Mappability	5	5	0
+chr10	133625100	133797400	High Signal Region, Low Mappability	114	76	38
+chr11	0	210600	High Signal Region, Low Mappability	555	407	148
+chr11	577000	586400	High Signal Region	7	0	7
+chr11	960300	966200	Low Mappability	12	12	0
+chr11	1015700	1019300	High Signal Region	19	0	19
+chr11	1078700	1099900	Low Mappability	13	13	0
+chr11	1416900	1433100	Low Mappability	3	3	0
+chr11	3252200	3338400	High Signal Region	1	0	1
+chr11	3379800	3602100	Low Mappability	199	199	0
+chr11	3652800	3655700	High Signal Region, Low Mappability	19	18	1
+chr11	4217700	4365400	High Signal Region, Low Mappability	60	48	12
+chr11	10489900	10511100	High Signal Region, Low Mappability	63	33	30
+chr11	18246700	18267800	Low Mappability	2	2	0
+chr11	24136300	24138200	High Signal Region	10	0	10
+chr11	28028800	28031100	High Signal Region	3	0	3
+chr11	48807900	48991600	High Signal Region	7	0	7
+chr11	50697500	54552400	High Signal Region	825	0	825
+chr11	61084400	61130800	Low Mappability	16	16	0
+chr11	61199600	61273200	High Signal Region	23	0	23
+chr11	61384600	61394200	High Signal Region	10	0	10
+chr11	62081300	62126100	High Signal Region	10	0	10
+chr11	65678000	65679900	High Signal Region	9	0	9
+chr11	65960500	66003200	Low Mappability	5	5	0
+chr11	67706500	67995500	Low Mappability	234	234	0
+chr11	70370400	70372500	High Signal Region	10	0	10
+chr11	71511000	71523500	Low Mappability	6	6	0
+chr11	71562700	71858500	Low Mappability	224	224	0
+chr11	71885800	71930400	Low Mappability	1	1	0
+chr11	73481200	73511700	Low Mappability	10	10	0
+chr11	73638800	73676700	Low Mappability	10	10	0
+chr11	77885500	77956800	Low Mappability	9	9	0
+chr11	85483000	85485000	Low Mappability	10	10	0
+chr11	89743300	90096300	High Signal Region, Low Mappability	171	11	160
+chr11	94232700	94240300	High Signal Region	36	0	36
+chr11	103407600	103410600	High Signal Region, Low Mappability	20	10	10
+chr11	109877400	109881600	High Signal Region	9	0	9
+chr11	111187800	111189700	High Signal Region	3	0	3
+chr11	120081600	120084200	High Signal Region	5	0	5
+chr11	123002700	123004600	Low Mappability	10	10	0
+chr11	126210400	126227400	Low Mappability	11	11	0
+chr11	131673500	131682200	High Signal Region, Low Mappability	12	9	3
+chr11	132068400	132072100	Low Mappability	18	18	0
+chr11	133999400	134001500	Low Mappability	4	4	0
+chr11	134165100	134168200	Low Mappability	7	7	0
+chr11	134736400	134740600	Low Mappability	6	6	0
+chr11	134838800	134840800	Low Mappability	4	4	0
+chr12	0	78100	High Signal Region, Low Mappability	478	322	156
+chr12	387700	454200	High Signal Region, Low Mappability	41	25	16
+chr12	528900	544400	Low Mappability	5	5	0
+chr12	569600	591700	Low Mappability	9	9	0
+chr12	2254800	2257000	High Signal Region, Low Mappability	23	11	12
+chr12	2519300	2540600	Low Mappability	12	12	0
+chr12	5116600	5144200	Low Mappability	4	4	0
+chr12	6279300	6292300	Low Mappability	10	10	0
+chr12	6850400	6971900	High Signal Region	9	0	9
+chr12	7082400	7110400	High Signal Region	12	0	12
+chr12	7243000	7257200	Low Mappability	10	10	0
+chr12	8132900	8449400	Low Mappability	456	456	0
+chr12	9283200	9331900	High Signal Region, Low Mappability	7	3	4
+chr12	9394000	9497400	High Signal Region, Low Mappability	16	2	14
+chr12	11267400	11316300	High Signal Region	10	0	10
+chr12	11391800	11396400	Low Mappability	1	1	0
+chr12	11609800	11630300	High Signal Region	10	0	10
+chr12	17096900	17098800	High Signal Region	5	0	5
+chr12	20550500	20554400	Low Mappability	11	11	0
+chr12	20768400	20770300	High Signal Region	10	0	10
+chr12	31612700	31617000	Low Mappability	3	3	0
+chr12	34167200	34237200	Low Mappability	10	10	0
+chr12	34679900	37737700	High Signal Region, Low Mappability	1021	99	922
+chr12	41362700	41364600	High Signal Region	10	0	10
+chr12	43789900	43795500	Low Mappability	8	8	0
+chr12	48851400	48866800	High Signal Region	1	0	1
+chr12	49055200	49132800	Low Mappability	2	2	0
+chr12	53212900	53383900	High Signal Region	5	0	5
+chr12	53658500	53702900	High Signal Region	5	0	5
+chr12	54077100	54126400	Low Mappability	49	49	0
+chr12	54259200	54287800	High Signal Region	15	0	15
+chr12	54923400	54932300	High Signal Region	10	0	10
+chr12	55816600	55831700	High Signal Region	5	0	5
+chr12	55965500	55975500	High Signal Region	3	0	3
+chr12	56628200	56647200	High Signal Region	5	0	5
+chr12	66473900	66475800	High Signal Region, Low Mappability	20	10	10
+chr12	68685700	68688100	High Signal Region	1	0	1
+chr12	71662300	71665400	High Signal Region	2	0	2
+chr12	80451200	80483500	High Signal Region	1	0	1
+chr12	93376000	93402700	Low Mappability	7	7	0
+chr12	93492200	93499700	High Signal Region	9	0	9
+chr12	93639300	93642200	Low Mappability	11	11	0
+chr12	95654000	95656100	Low Mappability	2	2	0
+chr12	101696200	101706400	High Signal Region	5	0	5
+chr12	104030200	104033000	Low Mappability	9	9	0
+chr12	106015500	106018000	Low Mappability	5	5	0
+chr12	109633500	109636700	Low Mappability	5	5	0
+chr12	117102400	117129800	Low Mappability	5	5	0
+chr12	118245500	118247600	Low Mappability	3	3	0
+chr12	122054000	122095700	High Signal Region	5	0	5
+chr12	123509700	123513700	High Signal Region	12	0	12
+chr12	123582200	123603400	High Signal Region	10	0	10
+chr12	124088500	124094400	High Signal Region, Low Mappability	13	7	6
+chr12	124430600	124440200	High Signal Region, Low Mappability	14	7	7
+chr12	124828300	124840900	Low Mappability	9	9	0
+chr12	124904300	124941600	High Signal Region, Low Mappability	17	16	1
+chr12	125183200	125205700	Low Mappability	2	2	0
+chr12	125588400	125590300	Low Mappability	10	10	0
+chr12	126179600	126182000	Low Mappability	8	8	0
+chr12	127165000	127167400	Low Mappability	14	14	0
+chr12	128240500	128243100	Low Mappability	9	9	0
+chr12	128707300	128709500	Low Mappability	9	9	0
+chr12	130378600	130394100	High Signal Region, Low Mappability	37	26	11
+chr12	130531200	130540600	Low Mappability	10	10	0
+chr12	130758500	130766200	High Signal Region	1	0	1
+chr12	130872500	130888700	Low Mappability	9	9	0
+chr12	131394700	131402400	Low Mappability	3	3	0
+chr12	131575900	131589500	Low Mappability	46	46	0
+chr12	131626000	131632500	Low Mappability	8	8	0
+chr12	131994600	131999800	Low Mappability	11	11	0
+chr12	132135200	132158800	High Signal Region	4	0	4
+chr12	132223300	132253900	High Signal Region, Low Mappability	5	4	1
+chr12	132290400	132301300	Low Mappability	2	2	0
+chr12	132330400	132413500	High Signal Region, Low Mappability	4	1	3
+chr12	132462800	132474300	High Signal Region, Low Mappability	6	2	4
+chr12	132683300	132695000	Low Mappability	8	8	0
+chr12	132731700	132743500	Low Mappability	2	2	0
+chr13	0	18627500	High Signal Region, Low Mappability	1207	986	221
+chr13	18745200	18873600	High Signal Region	19	0	19
+chr13	19137100	19139200	Low Mappability	9	9	0
+chr13	19959100	19961300	High Signal Region	1	0	1
+chr13	20392100	20420700	High Signal Region	10	0	10
+chr13	20488900	20527300	High Signal Region	2	0	2
+chr13	20992200	21080700	High Signal Region	1	0	1
+chr13	21138400	21141900	High Signal Region	4	0	4
+chr13	21175500	21186800	High Signal Region	3	0	3
+chr13	21231500	21243900	High Signal Region	7	0	7
+chr13	21376400	21378500	High Signal Region, Low Mappability	14	9	5
+chr13	23556500	23579300	High Signal Region	7	0	7
+chr13	23888000	23891000	High Signal Region	2	0	2
+chr13	24355000	24357900	High Signal Region	14	0	14
+chr13	24502200	24526700	High Signal Region	6	0	6
+chr13	24670500	24695000	High Signal Region	9	0	9
+chr13	26213700	26224000	High Signal Region	11	0	11
+chr13	26929500	27056800	High Signal Region	8	0	8
+chr13	27250200	27272300	High Signal Region	11	0	11
+chr13	27402700	27460500	High Signal Region	18	0	18
+chr13	28292400	28294300	High Signal Region	5	0	5
+chr13	29471600	29521000	High Signal Region	9	0	9
+chr13	29901600	29927200	High Signal Region	8	0	8
+chr13	30305100	30487500	High Signal Region	11	0	11
+chr13	30612200	30619700	High Signal Region	10	0	10
+chr13	30791700	30871500	High Signal Region	38	0	38
+chr13	31141900	31173600	High Signal Region	6	0	6
+chr13	32309200	32317200	High Signal Region	3	0	3
+chr13	32530400	32540000	High Signal Region	9	0	9
+chr13	33168200	33286900	High Signal Region	5	0	5
+chr13	33642700	33677700	High Signal Region	9	0	9
+chr13	35760700	35764100	High Signal Region	12	0	12
+chr13	35957000	35979900	High Signal Region	10	0	10
+chr13	36997600	37002000	High Signal Region	8	0	8
+chr13	38348300	38351300	High Signal Region	1	0	1
+chr13	39000800	39039500	High Signal Region	3	0	3
+chr13	40769700	40778600	High Signal Region	7	0	7
+chr13	41053500	41066300	High Signal Region	2	0	2
+chr13	41130100	41134700	High Signal Region	4	0	4
+chr13	42027900	42050400	High Signal Region	1	0	1
+chr13	42270400	42276200	High Signal Region	2	0	2
+chr13	43966800	43976000	High Signal Region	1	0	1
+chr13	44902800	44937400	High Signal Region	13	0	13
+chr13	45118800	45146700	High Signal Region	11	0	11
+chr13	45280300	45371800	High Signal Region	3	0	3
+chr13	45463600	45512700	High Signal Region	3	0	3
+chr13	47773300	47787900	High Signal Region	5	0	5
+chr13	48036400	48040000	High Signal Region	12	0	12
+chr13	48530900	48543100	High Signal Region	4	0	4
+chr13	48731200	48783700	High Signal Region	2	0	2
+chr13	49246700	49249500	High Signal Region	7	0	7
+chr13	49442500	49446000	High Signal Region	15	0	15
+chr13	50080000	50085800	High Signal Region	9	0	9
+chr13	50798500	50802400	High Signal Region	3	0	3
+chr13	51582700	51732100	High Signal Region	8	0	8
+chr13	52193200	52195500	High Signal Region	3	0	3
+chr13	52229600	52304900	High Signal Region	27	0	27
+chr13	52447500	52457200	High Signal Region	7	0	7
+chr13	52506600	52576800	High Signal Region	38	0	38
+chr13	52650100	52654100	High Signal Region	4	0	4
+chr13	57138600	57174300	High Signal Region, Low Mappability	199	92	107
+chr13	60395200	60399600	High Signal Region	1	0	1
+chr13	63028400	63067000	High Signal Region	8	0	8
+chr13	63716900	63769600	High Signal Region	41	0	41
+chr13	63821500	63837300	High Signal Region	9	0	9
+chr13	75536400	75551300	High Signal Region	5	0	5
+chr13	77313800	77338100	High Signal Region	6	0	6
+chr13	80289200	80291100	High Signal Region	10	0	10
+chr13	89879600	89881500	High Signal Region	10	0	10
+chr13	94548000	94551100	High Signal Region	3	0	3
+chr13	95675300	95708500	High Signal Region	2	0	2
+chr13	97221200	97386800	High Signal Region	12	0	12
+chr13	97431600	97436400	High Signal Region	18	0	18
+chr13	98444500	98596700	High Signal Region	3	0	3
+chr13	98650000	98674500	High Signal Region	7	0	7
+chr13	99464000	99527500	High Signal Region	5	0	5
+chr13	99655000	99663900	High Signal Region	1	0	1
+chr13	102591100	102599100	High Signal Region	3	0	3
+chr13	102825200	102848600	High Signal Region	2	0	2
+chr13	109411500	109425300	High Signal Region, Low Mappability	22	11	11
+chr13	110042300	110044800	High Signal Region	6	0	6
+chr13	110093800	110139600	High Signal Region	3	0	3
+chr13	110380300	110421800	High Signal Region	16	0	16
+chr13	110455000	110510700	High Signal Region	2	0	2
+chr13	110702000	110717000	High Signal Region	1	0	1
+chr13	110868500	110917400	High Signal Region	1	0	1
+chr13	111567100	111569300	High Signal Region	7	0	7
+chr13	111620500	111622300	High Signal Region	1	0	1
+chr13	111668900	111843400	High Signal Region	14	0	14
+chr13	112014100	112016000	High Signal Region	9	0	9
+chr13	112077900	112097000	High Signal Region	10	0	10
+chr13	112278000	112319400	High Signal Region	50	0	50
+chr13	112525500	112541300	High Signal Region, Low Mappability	4	3	1
+chr13	112665000	112667600	High Signal Region	3	0	3
+chr13	112863300	112886500	High Signal Region, Low Mappability	16	7	9
+chr13	113151900	113227100	High Signal Region	8	0	8
+chr13	113261900	113315600	Low Mappability	9	9	0
+chr13	113520600	113626500	High Signal Region	2	0	2
+chr13	113664700	113916900	High Signal Region	21	0	21
+chr13	113940200	114032100	High Signal Region	7	0	7
+chr13	114110600	114163200	Low Mappability	7	7	0
+chr13	114225700	114236600	High Signal Region	3	0	3
+chr13	114259400	114364300	High Signal Region, Low Mappability	18	10	8
+chr14	0	19726500	High Signal Region, Low Mappability	2061	1036	1025
+chr14	32462000	32486000	High Signal Region, Low Mappability	30	15	15
+chr14	34538600	34562500	High Signal Region	8	0	8
+chr14	35947300	35950000	Low Mappability	10	10	0
+chr14	71673600	71675600	Low Mappability	9	9	0
+chr14	77268800	77270700	High Signal Region	10	0	10
+chr14	86073800	86075900	High Signal Region	4	0	4
+chr14	99420000	99421900	High Signal Region	10	0	10
+chr15	17049100	19790100	High Signal Region, Low Mappability	82	25	57
+chr15	20001100	20185000	High Signal Region, Low Mappability	10	5	5
+chr15	20411500	22221100	High Signal Region, Low Mappability	87	9	78
+chr15	22303000	22629700	High Signal Region, Low Mappability	55	17	38
+chr15	23123700	23367700	High Signal Region, Low Mappability	213	62	151
+chr15	23427400	23434600	High Signal Region	6	0	6
+chr15	28293600	28748400	High Signal Region, Low Mappability	145	43	102
+chr15	30066300	30617900	High Signal Region, Low Mappability	62	20	42
+chr15	32153700	32606500	High Signal Region, Low Mappability	24	19	5
+chr15	72631900	72671300	High Signal Region, Low Mappability	65	36	29
+chr15	74067400	74104500	High Signal Region, Low Mappability	102	46	56
+chr15	75253500	75299700	High Signal Region, Low Mappability	174	82	92
+chr15	82320500	82377300	High Signal Region, Low Mappability	54	46	8
+chr15	82421200	82527800	High Signal Region, Low Mappability	83	42	41
+chr15	84165300	84382200	High Signal Region, Low Mappability	235	106	129
+chr15	84403500	84523900	High Signal Region, Low Mappability	191	104	87
+chr15	85185500	85269700	High Signal Region, Low Mappability	78	35	43
+chr15	101861000	101991100	High Signal Region, Low Mappability	372	322	50
+chr16	16217900	16526300	High Signal Region	1	0	1
+chr16	21379200	21501800	High Signal Region	7	0	7
+chr16	21739500	21932500	High Signal Region	19	0	19
+chr16	22432400	22609900	High Signal Region	25	0	25
+chr16	26684200	26686100	High Signal Region	5	0	5
+chr16	29361400	29594800	High Signal Region	10	0	10
+chr16	30169000	30334800	High Signal Region	14	0	14
+chr16	34061300	34121200	High Signal Region, Low Mappability	133	43	90
+chr16	34143000	34188500	Low Mappability	10	10	0
+chr16	34272900	34633600	High Signal Region, Low Mappability	626	357	269
+chr16	34656800	34672500	High Signal Region, Low Mappability	53	19	34
+chr16	34694800	34771900	High Signal Region, Low Mappability	160	94	66
+chr16	34827100	34921800	High Signal Region, Low Mappability	156	85	71
+chr16	34945600	35071700	High Signal Region, Low Mappability	16	4	12
+chr16	36097500	36143900	Low Mappability	12	12	0
+chr16	36166300	36202400	High Signal Region, Low Mappability	11	8	3
+chr16	36225200	46467000	High Signal Region, Low Mappability	539	271	268
+chr16	90090800	90338300	High Signal Region	10	0	10
+chr17	1052300	1066300	Low Mappability	6	6	0
+chr17	12041900	12043800	Low Mappability	9	9	0
+chr17	21837200	22061000	High Signal Region, Low Mappability	673	319	354
+chr17	22520400	22528400	High Signal Region, Low Mappability	36	10	26
+chr17	22745200	26630700	High Signal Region, Low Mappability	306	197	109
+chr17	26767100	26941800	High Signal Region, Low Mappability	318	108	210
+chr17	43227500	43324400	High Signal Region, Low Mappability	286	163	123
+chr17	53104800	53107300	High Signal Region, Low Mappability	25	15	10
+chr18	0	131500	High Signal Region, Low Mappability	202	113	89
+chr18	2841300	2843200	High Signal Region, Low Mappability	20	10	10
+chr18	6272000	6274200	Low Mappability	4	4	0
+chr18	7624700	7626600	High Signal Region	10	0	10
+chr18	11614100	11645100	Low Mappability	47	47	0
+chr18	14164800	14590800	Low Mappability	6	6	0
+chr18	14857500	14896700	Low Mappability	10	10	0
+chr18	15089000	20949600	High Signal Region, Low Mappability	802	266	536
+chr18	22231100	22233600	Low Mappability	11	11	0
+chr18	35343200	35361800	High Signal Region	2	0	2
+chr18	46545300	46547500	High Signal Region	10	0	10
+chr18	46915900	47035900	High Signal Region, Low Mappability	308	193	115
+chr18	47852300	47854300	Low Mappability	11	11	0
+chr18	48510300	48512300	Low Mappability	2	2	0
+chr18	52791800	52793800	High Signal Region, Low Mappability	20	10	10
+chr18	57621200	57643600	Low Mappability	9	9	0
+chr18	74596300	74618100	High Signal Region	7	0	7
+chr18	74914700	74917400	Low Mappability	9	9	0
+chr18	76966200	76984200	Low Mappability	9	9	0
+chr18	78436400	78438900	Low Mappability	1	1	0
+chr18	78485000	78515300	Low Mappability	13	13	0
+chr18	78831700	78856800	Low Mappability	7	7	0
+chr18	79013500	79040400	High Signal Region, Low Mappability	37	33	4
+chr18	79472900	79475800	Low Mappability	2	2	0
+chr18	79504000	79529700	Low Mappability	7	7	0
+chr18	79617700	79634700	High Signal Region, Low Mappability	38	28	10
+chr18	79745200	79766000	Low Mappability	2	2	0
+chr19	0	271600	High Signal Region, Low Mappability	240	81	159
+chr19	428600	435400	High Signal Region	1	0	1
+chr19	7449300	7452000	High Signal Region, Low Mappability	24	9	15
+chr19	8739700	8800000	High Signal Region, Low Mappability	676	436	240
+chr19	22821700	22823600	High Signal Region	4	0	4
+chr19	24331600	27315600	High Signal Region, Low Mappability	14	7	7
+chr19	34389800	34415000	High Signal Region	15	0	15
+chr19	34861100	34865400	High Signal Region	10	0	10
+chr19	35574700	35576700	Low Mappability	10	10	0
+chr19	36268400	36313100	High Signal Region	4	0	4
+chr19	37269700	37318400	High Signal Region	6	0	6
+chr19	47903400	47959900	High Signal Region, Low Mappability	152	34	118
+chr19	50090900	50140600	High Signal Region	10	0	10
+chr19	58499400	58617600	Low Mappability	9	9	0
+chr20	0	68200	High Signal Region, Low Mappability	25	2	23
+chr20	26285300	29264800	High Signal Region, Low Mappability	59	8	51
+chr20	29297600	29361500	Low Mappability	21	21	0
+chr20	30482200	30521900	Low Mappability	2	2	0
+chr20	30993800	31246300	High Signal Region, Low Mappability	1178	608	570
+chr20	57357600	57361300	Low Mappability	3	3	0
+chr21	5265100	8682900	High Signal Region, Low Mappability	941	467	474
+chr22	10713700	11283900	High Signal Region, Low Mappability	209	80	129
+chr22	11309100	11428100	High Signal Region, Low Mappability	57	28	29
+chr22	11497300	11933100	High Signal Region, Low Mappability	61	51	10
+chr22	12126700	12192200	High Signal Region, Low Mappability	77	48	29
+chr22	12428800	15952100	High Signal Region, Low Mappability	29	10	19
+chr22	16258200	16382600	High Signal Region, Low Mappability	398	184	214
+chr22	18175900	18897500	High Signal Region, Low Mappability	132	79	53
+chr22	20325400	20351000	Low Mappability	7	7	0
+chr22	21111800	21439500	High Signal Region	3	0	3
+chr22	23484700	23487700	Low Mappability	17	17	0
+chr22	35884700	35886600	High Signal Region	8	0	8
+chr22	50642900	50644900	Low Mappability	4	4	0
+chr22	50786600	50818400	High Signal Region	14	0	14
+chrX	0	2781600	Low Mappability	148	148	0
+chrX	9403600	9415300	High Signal Region, Low Mappability	124	104	20
+chrX	17736500	17738400	High Signal Region	9	0	9
+chrX	21322400	21345000	High Signal Region	1	0	1
+chrX	23883200	23909400	High Signal Region	10	0	10
+chrX	29978600	29988400	High Signal Region	10	0	10
+chrX	44431900	44443200	High Signal Region	10	0	10
+chrX	48292300	48443400	High Signal Region	35	0	35
+chrX	49304500	49623300	High Signal Region, Low Mappability	524	312	212
+chrX	51668100	51743700	High Signal Region	1	0	1
+chrX	52442800	52575200	High Signal Region	52	0	52
+chrX	52642000	52802300	High Signal Region	33	0	33
+chrX	52882500	52973300	High Signal Region	1	0	1
+chrX	53923600	53929300	High Signal Region	10	0	10
+chrX	55135100	55184500	High Signal Region, Low Mappability	50	28	22
+chrX	56432300	56440600	High Signal Region	1	0	1
+chrX	56764400	56781500	High Signal Region, Low Mappability	17	7	10
+chrX	58449300	62697600	High Signal Region, Low Mappability	253	10	243
+chrX	63129100	63266600	High Signal Region	8	0	8
+chrX	68651900	68654700	High Signal Region	4	0	4
+chrX	71683300	71798200	High Signal Region	43	0	43
+chrX	72743200	73011800	High Signal Region	14	0	14
+chrX	74789600	74794000	High Signal Region	3	0	3
+chrX	89202000	89208400	High Signal Region, Low Mappability	18	12	6
+chrX	93286800	93289100	Low Mappability	5	5	0
+chrX	100257100	100261600	High Signal Region	6	0	6
+chrX	101265500	101274400	High Signal Region	10	0	10
+chrX	106827500	106829800	High Signal Region	2	0	2
+chrX	109035000	109068800	High Signal Region, Low Mappability	15	13	2
+chrX	111416100	111418000	High Signal Region	10	0	10
+chrX	115690000	115888800	High Signal Region	19	0	19
+chrX	116557600	116615300	High Signal Region	1	0	1
+chrX	120038200	120086800	High Signal Region	10	0	10
+chrX	120149400	120214500	High Signal Region	1	0	1
+chrX	121263700	121267900	High Signal Region	5	0	5
+chrX	126470900	126474200	High Signal Region, Low Mappability	42	19	23
+chrX	126729900	126732800	High Signal Region, Low Mappability	12	10	2
+chrX	129632400	129638600	High Signal Region	10	0	10
+chrX	135710200	135889800	High Signal Region, Low Mappability	1227	751	476
+chrX	135939000	135948000	Low Mappability	9	9	0
+chrX	137433400	137439300	High Signal Region, Low Mappability	12	10	2
+chrX	140722300	140726300	High Signal Region	23	0	23
+chrX	140995400	141111300	High Signal Region, Low Mappability	30	5	25
+chrX	141226100	141248300	Low Mappability	1	1	0
+chrX	141478400	141602100	High Signal Region, Low Mappability	69	14	55
+chrX	141677300	141701100	High Signal Region, Low Mappability	4	1	3
+chrX	144077700	144212600	High Signal Region	1	0	1
+chrX	149503200	149601600	High Signal Region	1	0	1
+chrX	149722000	149796200	High Signal Region	7	0	7
+chrX	154144200	154309100	High Signal Region	75	0	75
+chrX	154516300	154654400	High Signal Region	16	0	16
+chrX	154798900	154817900	Low Mappability	1	1	0
+chrX	154880600	154890600	High Signal Region	5	0	5
+chrX	155336700	155386900	High Signal Region	2	0	2
+chrX	155453900	155522000	High Signal Region	11	0	11
+chrX	155699400	156040800	Low Mappability	100	100	0
+chrY	2833400	7204400	High Signal Region, Low Mappability	20	10	10
+chrY	7569600	10070100	High Signal Region	10	0	10
+chrY	10246100	11041600	High Signal Region, Low Mappability	350	177	173
+chrY	11084000	11397500	High Signal Region, Low Mappability	403	221	182
+chrY	11481900	11805800	High Signal Region, Low Mappability	159	100	59
+chrY	26637300	57227400	High Signal Region, Low Mappability	202	64	138
