@@ -1,17 +1,64 @@
-library(TxDb.Hsapiens.UCSC.hg38.knownGene)
-library(TxDb.Mmusculus.UCSC.mm10.knownGene)
-library(GenomicRanges)
-library(ggplot2)
-library(ggpattern)
-library(openxlsx)
-library(IRanges)
-library(dplyr)
-library(ggvenn)
-library(patchwork)
-library(ggrepel)
-library(ggdendro)
-library(cowplot)
-library(magick)
+# Define the list of required packages
+required_packages <- c(
+  "TxDb.Hsapiens.UCSC.hg38.knownGene",
+  "TxDb.Mmusculus.UCSC.mm10.knownGene",
+  "GenomicRanges",
+  "ggplot2",
+  "ggpattern",
+  "openxlsx",
+  "IRanges",
+  "dplyr",
+  "ggvenn",
+  "patchwork",
+  "ggrepel",
+  "ggdendro",
+  "cowplot",
+  "magick",
+  "here",
+  "rtracklayer",
+  "dplyr",
+  "ComplexHeatmap",
+  "gridExtra",
+  "gdata",
+  "AnnotationHub",
+  "readr",
+  "ggsci",
+  "tidyr",
+  "biomaRt",
+  "jsonlite",
+  "reshape2",
+  "viridis",
+  "uwot",
+  "ggrepel",
+  "knitr",
+  "pander",
+  "readxl",
+  "stringr",
+  "ggridges",
+  "svglite",
+  "data.table",
+  "tidyverse",
+  "edgeR",
+  "limma"
+)
+
+# Function to check if a package is installed and install it if not
+install_if_missing <- function(package) {
+  if (!requireNamespace(package, quietly = TRUE)) {
+    BiocManager::install(package)
+  }
+}
+
+# Ensure BiocManager is installed
+if (!requireNamespace("BiocManager", quietly = TRUE)) {
+  install.packages("BiocManager")
+}
+
+# Install missing packages
+invisible(lapply(required_packages, install_if_missing))
+
+# Load all packages
+invisible(lapply(required_packages, library, character.only = TRUE))
 
 setwd(file.path(here::here(), "Figures"))
 
@@ -102,12 +149,15 @@ mm10_path_to_shortarms <- file.path(
 )
 
 source(file.path("scripts", "main.R"))
-source(file.path("scripts", "bio.R"))
-source(file.path("scripts", "embeddings_visuals.R"))
+try(source(file.path("scripts", "bio.R")), silent = TRUE)
+#source(file.path("scripts", "embeddings_visuals.R"))
 source(file.path("scripts", "names.R"))
-source(file.path("scripts", "ChIP_heatmaps.R"))
+#source(file.path("scripts", "ChIP_heatmaps.R"))
 source(file.path("scripts", "GSEA.R"))
 source(file.path("scripts", "BAMs.R"))
+source(file.path("scripts", "signal.R"))
+source(file.path("scripts", "summary_heatmaps.R"))
+source(file.path("scripts", "RNA-seq_sponge.R"))
 
 ## Figure 1
 ### A
@@ -651,40 +701,40 @@ point_size <- 2
 
 plot_2d_1 <- get_p_c_plots(
   j_c_distance_matrix_fig_2,
-  "Jaccard Count (Transformed)",
+  "Jaccard Count Overlap",
   text_size,
   point_size,
   parameter_test = FALSE
 )
 plot_2d_2 <- get_p_c_plots(
   j_w_distance_matrix_fig_2,
-  "Jaccard Width (Transformed)",
+  "Jaccard Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE
 )
 plot_2d_3 <- get_p_c_plots(
   f_w_distance_matrix_fig_2,
-  "Forbes Width (Transformed)",
+  "Forbes Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE
 )
-plot_2d_embeddings <- embeddings_plot_list[["figure_S4D.csv"]] +
-  labs(
-    title = NULL,
-    subtitle = NULL
-  ) +
-  scale_color_manual(
-    values = list_colors_fig_2[
-      ggplot_build(
-        embeddings_plot_list[["figure_S4D.csv"]]
-      )$data[[2]]$label
-    ]
-  ) +
-  theme(
-    legend.position = "none"
-  ) + coord_fixed(ratio = 1)
+#plot_2d_embeddings <- embeddings_plot_list[["figure_S4D.csv"]] +
+#  labs(
+#    title = NULL,
+#    subtitle = NULL
+#  ) +
+#  scale_color_manual(
+#    values = list_colors_fig_2[
+#      ggplot_build(
+#        embeddings_plot_list[["figure_S4D.csv"]]
+#      )$data[[2]]$label
+#    ]
+#  ) +
+#  theme(
+#    legend.position = "none"
+#  ) + coord_fixed(ratio = 1)
 
 fig_2a <- plot_2a_1 +
   theme(legend.position = "bottom") +
@@ -696,8 +746,8 @@ fig_2c <- plot_2c_1 +
   theme(legend.position = "bottom") +
   labs(tag = "B")
 
-fig_2d <- plot_2d_embeddings +
-  labs(tag = "D", title = "BED file embedding")
+fig_2d <- plot_2d_1 +
+  labs(tag = "D")
 
 fig_2 <- (fig_2a / fig_2b | fig_2c / fig_2d) +
   plot_annotation(title = NULL)
@@ -1039,40 +1089,40 @@ plot_2_exp_c_2 <- make_bars_2c(
 ### D
 plot_2_exp_d_1 <- get_p_c_plots(
   j_c_distance_matrix_fig_2_exp,
-  "Jaccard Count (Transformed)",
+  "Jaccard Count Overlap",
   text_size,
   point_size,
   parameter_test = FALSE
 )
 plot_2_exp_d_2 <- get_p_c_plots(
   j_w_distance_matrix_fig_2_exp,
-  "Jaccard Width (Transformed)",
+  "Jaccard Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE
 )
 plot_2_exp_d_3 <- get_p_c_plots(
   f_w_distance_matrix_fig_2_exp,
-  "Forbes Width (Transformed)",
+  "Forbes Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE
 )
-plot_2_exp_d_embeddings <- fig_2_expanded_plot +
-  labs(
-    title = NULL,
-    subtitle = NULL
-  ) +
-  scale_color_manual(
-    values = list_colors_fig_2_exp[
-      ggplot_build(
-        fig_2_expanded_plot
-      )$data[[2]]$label
-    ]
-  ) +
-  theme(
-    legend.position = "none"
-  )
+#plot_2_exp_d_embeddings <- fig_2_expanded_plot +
+#  labs(
+#    title = NULL,
+#    subtitle = NULL
+#  ) +
+#  scale_color_manual(
+#    values = list_colors_fig_2_exp[
+#      ggplot_build(
+#        fig_2_expanded_plot
+#      )$data[[2]]$label
+#    ]
+#  ) +
+#  theme(
+#    legend.position = "none"
+#  )
 
 fig_2_exp_a <- plot_2_exp_a_1 +
   theme(legend.position = "bottom") +
@@ -1084,7 +1134,7 @@ fig_2_exp_c <- plot_2_exp_c_1 +
   theme(legend.position = "bottom") +
   labs(tag = "B")
 
-fig_2_exp_d <- plot_2_exp_d_embeddings +
+fig_2_exp_d <- plot_2_exp_d_1 +
   labs(tag = "D")
 
 # Figure SX
@@ -1561,20 +1611,20 @@ plot_aligners_d_2 <- make_bars_1d(
 ) +
   labs(y = "Coverage")
 
-plot_aligners_a_embeddings <- embeddings_plot_list[["figure_S5C.csv"]] +
-  labs(
-    title = "PCA of Embeddings"
-  ) +
-  scale_color_manual(
-    values = list_colors_fig_aligners[
-      ggplot_build(
-        embeddings_plot_list[["figure_S5C.csv"]]
-      )$data[[2]]$label
-    ]
-  ) +
-  theme(
-    legend.position = "none"
-  )
+#plot_aligners_a_embeddings <- embeddings_plot_list[["figure_S5C.csv"]] +
+#  labs(
+#    title = "PCA of Embeddings"
+#  ) +
+#  scale_color_manual(
+#    values = list_colors_fig_aligners[
+#      ggplot_build(
+#        embeddings_plot_list[["figure_S5C.csv"]]
+#      )$data[[2]]$label
+#    ]
+#  ) +
+#  theme(
+#    legend.position = "none"
+#  )
 
 fig_aligners_a <- wrap_plots((
   plot_aligners_a_1 +
@@ -1621,7 +1671,7 @@ export_fig(
 
 plot_aln_mds_1 <- get_p_c_plots(
   j_c_distance_matrix_aln,
-  "Jaccard Count (Transformed)",
+  "Jaccard Count Overlap",
   text_size,
   point_size,
   parameter_test = FALSE,
@@ -1629,7 +1679,7 @@ plot_aln_mds_1 <- get_p_c_plots(
 )
 plot_aln_mds_2 <- get_p_c_plots(
   j_w_distance_matrix_aln,
-  "Jaccard Width (Transformed)",
+  "Jaccard Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE,
@@ -1637,7 +1687,7 @@ plot_aln_mds_2 <- get_p_c_plots(
 )
 plot_aln_mds_3 <- get_p_c_plots(
   f_w_distance_matrix_aln,
-  "Forbes Width (Transformed)",
+  "Forbes Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE,
@@ -1660,9 +1710,9 @@ plot_aln_den_3 <- get_dendro_plot(
   "ward.D2"
 )
 
-fig_aligners_S2_a <- plot_aligners_a_embeddings +
+fig_aligners_S2_a <- plot_aln_mds_1 +
   labs(
-    title = "BED file embedding",
+    title = "Jaccard Count Overlap",
     subtitle = NULL,
     tag = "A"
   )
@@ -1696,22 +1746,22 @@ export_fig(
   "Supplementary_Figure_S5"
 )
 
-plot_fig_2_exp_a_embeddings <- fig_2_expanded_plot +
-  scale_color_manual(
-    values = list_colors_fig_2_exp[
-      ggplot_build(
-        fig_2_expanded_plot
-      )$data[[2]]$label
-    ]
-  ) +
-  theme(
-    legend.position = "none",
-  )
+#plot_fig_2_exp_a_embeddings <- fig_2_expanded_plot +
+#  scale_color_manual(
+#    values = list_colors_fig_2_exp[
+#      ggplot_build(
+#        fig_2_expanded_plot
+#      )$data[[2]]$label
+#    ]
+#  ) +
+#  theme(
+#    legend.position = "none",
+#  )
 
 
 plot_fig_2_exp_mds_3 <- get_p_c_plots(
   f_w_distance_matrix_fig_2_exp,
-  "Forbes Width (Transformed)",
+  "Forbes Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE,
@@ -1729,9 +1779,8 @@ plot_fig_2_exp_den_3 <- get_dendro_plot(
   "ward.D2"
 )
 
-fig_2_exp_S8_a <- plot_fig_2_exp_a_embeddings +
+fig_2_exp_S8_a <- fig_aligners_S2_a +
   labs(
-    title = "BED file embedding",
     subtitle = NULL,
     tag = "A"
   )
@@ -1764,7 +1813,7 @@ fig_2_exp_S8 <- (
 
 export_fig(
   fig_2_exp_S8,
-  "Supplementary_Figure_S8"
+  "Supplementary_Figure_S9"
 )
 
 ### S4
@@ -1822,7 +1871,7 @@ plot_aligners_2_a_2 <- get_plot_1a(
 
 plot_aln_2_mds_1 <- get_p_c_plots(
   j_c_distance_matrix_aln_2,
-  "Jaccard Count (Transformed)",
+  "Jaccard Count Overlap",
   text_size,
   point_size,
   parameter_test = FALSE,
@@ -1830,7 +1879,7 @@ plot_aln_2_mds_1 <- get_p_c_plots(
 )
 plot_aln_2_mds_2 <- get_p_c_plots(
   j_w_distance_matrix_aln_2,
-  "Jaccard Width (Transformed)",
+  "Jaccard Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE,
@@ -1838,34 +1887,34 @@ plot_aln_2_mds_2 <- get_p_c_plots(
 )
 plot_aln_2_mds_3 <- get_p_c_plots(
   f_w_distance_matrix_aln_2,
-  "Forbes Width (Transformed)",
+  "Forbes Width Overlap",
   text_size,
   point_size,
   parameter_test = FALSE,
   colors_ = list_colors_fig_aligners_2
 )
-plot_S6_b_embeddings <- embeddings_plot_list[["figure_S6B.csv"]] +
-  labs(
-    title = NULL,
-    subtitle = NULL
-  ) +
-  scale_color_manual(
-    values = list_colors_fig_aligners_2[
-      ggplot_build(
-        embeddings_plot_list[["figure_S6B.csv"]]
-      )$data[[2]]$label
-    ]
-  ) +
-  theme(
-    legend.position = "none"
-  )
+#plot_S6_b_embeddings <- embeddings_plot_list[["figure_S6B.csv"]] +
+#  labs(
+#    title = NULL,
+#    subtitle = NULL
+#  ) +
+#  scale_color_manual(
+#    values = list_colors_fig_aligners_2[
+#      ggplot_build(
+#        embeddings_plot_list[["figure_S6B.csv"]]
+#      )$data[[2]]$label
+#    ]
+#  ) +
+#  theme(
+#    legend.position = "none"
+#  )
 
 fig_aln_S4_a <- (plot_aligners_2_a_1 + labs(tag = "A")) /
   plot_aligners_2_a_2 +
   theme(legend.position = "none")
 fig_aln_S4_b <- (
-  plot_S6_b_embeddings +
-    labs(tag = "B", title = "BED file embedding")
+  plot_aln_2_mds_1 +
+    labs(tag = "B")
 ) /
   plot_aln_2_mds_3 +
     labs(title = "Forbes Width Overlap", subtitle = NULL)
@@ -2207,7 +2256,7 @@ fig_S7 <- wrap_plots(ps_plots) +
 
 export_fig(
   fig_S7,
-  "Supplementary_Figure_S7"
+  "Supplementary_Figure_S8"
 )
 
 ### MDS
@@ -2258,34 +2307,34 @@ f_w_kmer_plot <- get_para_mds_plots(
   color_by = "K-mer"
 )
 
-df_4 <- ggplot_build(
-  embeddings_plot_list[["figure_4H.csv"]]
-)$data[[1]][c("x", "y", "label")]
+#df_4 <- ggplot_build(
+#  embeddings_plot_list[["figure_4H.csv"]]
+#)$data[[1]][c("x", "y", "label")]
 
-e_bam_plot <- get_para_mds_plots_e(
-  in_df = df_4,
-  title_ = "Embeddings",
-  text_size = text_size,
-  point_size = point_size,
-  color_by = "BAM Files",
-  prefix_ = "STAR 36bp "
-)
-e_bridge_plot <- get_para_mds_plots_e(
-  in_df = df_4,
-  title_ = "Embeddings",
-  text_size = text_size,
-  point_size = point_size,
-  color_by = "Bridge",
-  prefix_ = "STAR 36bp "
-)
-e_kmer_plot <- get_para_mds_plots_e(
-  in_df = df_4,
-  title_ = "Embeddings",
-  text_size = text_size,
-  point_size = point_size,
-  color_by = "K-mer",
-  prefix_ = "STAR 36bp "
-)
+#e_bam_plot <- get_para_mds_plots_e(
+#  in_df = df_4,
+#  title_ = "Embeddings",
+#  text_size = text_size,
+#  point_size = point_size,
+#  color_by = "BAM Files",
+#  prefix_ = "STAR 36bp "
+#)
+#e_bridge_plot <- get_para_mds_plots_e(
+#  in_df = df_4,
+#  title_ = "Embeddings",
+#  text_size = text_size,
+#  point_size = point_size,
+#  color_by = "Bridge",
+#  prefix_ = "STAR 36bp "
+#)
+#e_kmer_plot <- get_para_mds_plots_e(
+#  in_df = df_4,
+#  title_ = "Embeddings",
+#  text_size = text_size,
+#  point_size = point_size,
+#  color_by = "K-mer",
+#  prefix_ = "STAR 36bp "
+#)
 
 f_w_rownames <- rownames(cmdscale(f_w_distance_matrix_para_gs))
 f_w_labels <- ifelse(
@@ -2318,27 +2367,58 @@ f_w_labels_plot <-  get_para_mds_plots(
     label.padding = 0.5
   )
 
-e_labels_plot <- embeddings_plot_before +
-  scale_color_manual(
-    values = list_colors_fig_2
-  ) +
+#e_labels_plot <- embeddings_plot_before +
+#  scale_color_manual(
+#    values = list_colors_fig_2
+#  ) +
+#  theme(
+#    legend.position = "none"
+#  ) +
+#  labs(
+#    title = "Embeddings",
+#    subtitle = "Principal Coordinate Analysis"
+#  ) +
+#  coord_cartesian(clip = "off")
+
+j_c_rownames <- rownames(cmdscale(j_c_distance_matrix_para_gs))
+j_c_labels <- ifelse(
+  j_c_rownames %in% names(list_colors_fig_2),
+  j_c_rownames,
+  ""
+)
+
+j_c_labels_plot <-  get_para_mds_plots(
+  in_matrix = j_c_distance_matrix_para_gs,
+  title_ = "Jaccard Count MDS",
+  text_size = text_size,
+  point_size = point_size,
+  color_by = "label"
+) +
   theme(
     legend.position = "none"
   ) +
-  labs(
-    title = "Embeddings",
-    subtitle = "Principal Coordinate Analysis"
+  scale_color_manual(
+    values = list_colors_fig_2
   ) +
-  coord_cartesian(clip = "off")
+  geom_text_repel(
+    label = j_c_labels,
+    color = "black",
+    size = 3,
+    max.overlaps = getOption(
+      "ggrepel.max.overlaps",
+      default = 100
+    ),
+    label.padding = 0.5
+  )
 
 fig_para_mds <- wrap_plots(
-  e_bam_plot +
+  j_c_bam_plot +
     labs(tag = "A"),
-  e_bridge_plot +
+  j_c_bridge_plot +
     labs(tag = "B"),
-  e_kmer_plot +
+  j_c_kmer_plot +
     labs(tag = "C"),
-  e_labels_plot +
+  j_c_labels_plot +
     labs(tag = "D"),
   f_w_bam_plot +
     labs(tag = "E"),
@@ -2355,7 +2435,7 @@ fig_para_mds <- wrap_plots(
 
 export_fig(
   fig_para_mds,
-  "Figure_4",
+  "Supplementary_Figure_S7",
   x = 7,
   y = 3
 )
@@ -2409,17 +2489,24 @@ fig_bio <- (
 
 export_fig(
   fig_bio,
-  "Figure_5",
+  "Figure_4",
   x = 6,
   y = 5
 )
 
-## ChIP Heatmaps
+## TF Heatmaps (summary_heatmaps.R)
 export_fig(
   chip_final_plot,
-  "Supplementary_Figure_S9",
+  "Figure_5",
   x = 6,
   y = 4
+)
+
+# TF Boxplots (S10) (summary_heatmaps.R)
+export_fig(
+  tf_boxplots_all,
+  "Supplementary_Figure_S10",
+  scale = 3
 )
 
 ## BAMs (S2)
@@ -2446,4 +2533,24 @@ fig_bams <- (free(fig_bams_a) + fig_bams_b) /
 export_fig(
   fig_bams,
   "Supplementary_Figure_S2"
+)
+
+# S11 (RNA-seq_sponge.R and signal.R)
+
+signal_plot[[1]][[1]] <- signal_plot[[1]][[1]] +
+  labs(tag = "A")
+
+fig_S11_a <- signal_plot
+
+fig_S11_b <- ((rna_count_plot + labs(tag = "B")) / rna_tpm_plot)
+
+fig_S11 <- wrap_plots(
+  list(fig_S11_a, fig_S11_b),
+  nrow = 1,
+  widths = c(3, 1)
+)
+
+export_fig(
+  fig_S11,
+  "Supplementary_Figure_S11"
 )

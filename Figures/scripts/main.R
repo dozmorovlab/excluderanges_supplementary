@@ -1121,7 +1121,8 @@ get_ps_plots <- function(
         label = .data[[z_col]]
       )
     ) +
-      geom_tile(color = "white") +
+      geom_tile(color = "grey") +
+      scale_fill_gradient(low = "black", high = "white") +
       coord_fixed() +
       theme_minimal() +
       labs(
@@ -2832,6 +2833,13 @@ overlap_jaccard_count_para <- overlap_matrix(
   fun = jaccard_count,
   Vend = 1
 )
+overlap_jaccard_count_para_gs <- overlap_matrix(
+  LIST = c(gr_list_fig_parameters, gr_list_fig_2),
+  Names = c(names_fig_parameters, names_fig_2),
+  fun = jaccard_count,
+  Vend = 1
+)
+
 # Jaccard width
 # Make Jaccard width matrix
 overlap_jaccard_width_para <- overlap_matrix(
@@ -2865,6 +2873,13 @@ diag(j_c_distance_matrix_para) <- 0 # Set diagonal to 0 since distance from an e
 j_c_distance_matrix_para <- as.dist(j_c_distance_matrix_para)
 overlap_jaccard_count_para_hc <- hclust(
   j_c_distance_matrix_para,
+  method = "ward.D2"
+)
+j_c_distance_matrix_para_gs <- 1 - overlap_jaccard_count_para_gs # Convert Jaccard coefficients to distances
+diag(j_c_distance_matrix_para_gs) <- 0 # Set diagonal to 0 since distance from an element to itself is 0
+j_c_distance_matrix_para_gs <- as.dist(j_c_distance_matrix_para_gs)
+overlap_jaccard_count_para_hc <- hclust(
+  j_c_distance_matrix_para_gs,
   method = "ward.D2"
 )
 

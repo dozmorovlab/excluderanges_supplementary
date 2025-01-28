@@ -7,6 +7,21 @@ library(GenomicRanges)
 library(biomaRt)
 library(jsonlite)
 
+# Check Ensemble
+'
+tryCatch(
+  {
+    ensembl <- useMart("ensembl", dataset = "hsapiens_gene_ensembl"), host = "https://useast.ensembl.org")
+    # Additional processing here if needed
+    print("Successfully connected to Ensembl!")
+  },
+  error = function(e) {
+    message("Error detected, Ensemble may be down: ", e$message)
+    quit(save = "default", status = 0)
+  }
+)
+'
+
 bed_dir <- file.path("data", "figure_2_exp")
 
 # https://www.gencodegenes.org/human/
@@ -170,7 +185,7 @@ main_df <- data.frame(
   check.names = FALSE
 )
 
-write.csv(main_df[main_df$Class == "protein_coding", ], "main_df.csv")
+write.csv(main_df[main_df$Class == "protein_coding", ], file.path("results", "bio_main_df.csv"))
 
 gr <- gr_list[[1]]
 main_results_list <- lapply(gr_list, function(gr) {
@@ -307,12 +322,12 @@ for (name in names(interpro_results_list)) {
 # Save the workbook
 saveWorkbook(
   main_wb,
-  file = "biological_characterization.xlsx",
+  file = file.path("results", "biological_characterization.xlsx"),
   overwrite = TRUE
 )
 saveWorkbook(
   interpro_wb,
-  file = "interpro_analysis.xlsx",
+  file = file.path("results", "interpro_analysis.xlsx"),
   overwrite = TRUE
 )
 
