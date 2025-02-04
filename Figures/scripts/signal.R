@@ -180,10 +180,10 @@ get_sig_plot <- function(bp) {
       subtitle = paste0(bp, "bp BAM")
     ) +
     theme_minimal() +
-    coord_flip() +
-    scale_fill_manual(
-      values = c("hg38 Count" = "grey", "Sponge Count" = "black")
-    )
+    coord_flip()# +
+    #scale_fill_manual(
+    #  values = c("hg38" = "grey", "Sponge" = "black")
+    #)
 
   read_per_long_df <- summary_df %>%
     pivot_longer(
@@ -208,9 +208,9 @@ get_sig_plot <- function(bp) {
     ) +
     theme_minimal() +
     coord_flip() +
-    scale_fill_manual(
-      values = c("Percent hg38" = "grey", "Percent Sponge" = "black")
-    ) +
+    #scale_fill_manual(
+    #  values = c("hg38" = "grey", "Sponge" = "black")
+    #) +
     scale_y_continuous(labels = function(x) paste0(x * 100, "%"))
 
   write.csv(summary_df, file.path(results_dir, paste0(bp, "_summary.csv")))
@@ -223,14 +223,21 @@ plot_101_list <- get_sig_plot(101)
 
 c_plot <- plot_36_list$counts / plot_101_list$counts +
   plot_layout(guides = "collect") &
-  theme(legend.position = "bottom", legend.title = element_blank()) &
+  theme(
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    legend.box.margin = margin(-160, 0, 0, 0)
+  ) &
+  scale_fill_manual(
+    labels = c("hg38", "Sponge"),
+    values = scales::hue_pal()(2)
+  ) &
   labs(title = NULL) &
   guides(fill = guide_legend(reverse = TRUE))
 
 p_plot <- plot_36_list$percents / plot_101_list$percents +
   plot_layout(guides = "collect") &
-  theme(legend.position = "bottom", legend.title = element_blank()) &
-  labs(title = NULL) &
-  guides(fill = guide_legend(reverse = TRUE))
+  theme(legend.position = "none", legend.title = element_blank()) &
+  labs(title = NULL)
 
 signal_plot <- c_plot | p_plot

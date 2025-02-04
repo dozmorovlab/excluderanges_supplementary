@@ -1,9 +1,0 @@
-name: blacklist-env
-channels:
-- conda-forge
-- bioconda
-dependencies:
-- python
-- numpy
-- pandas
-- pysam

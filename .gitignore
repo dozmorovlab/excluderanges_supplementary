@@ -1,3 +1,5 @@
 
 Blacklist_python/.DS_Store
 .DS_Store
+/Scripts/WGS
+/Figures/data/bulkRNASeq

@@ -77,7 +77,7 @@ ks_test_tpm <- ks.test(gene_tpm_df$full, gene_tpm_df$full_all)
 # Prepare data for boxplot
 boxplot_data_count <- data.frame(
   type = factor(rep(
-    c("full", "full_all"), each = length(gene_counts_full)
+    c("hg38", "hg38 & Sponge"), each = length(gene_counts_full)
   )),
   value = c(
     gene_counts_full,    # full Cont
@@ -87,7 +87,7 @@ boxplot_data_count <- data.frame(
 # Create boxplot
 rna_count_plot <- ggplot(
   boxplot_data_count,
-  aes(x = type, y = value)
+  aes(x = type, y = value, fill = type)
 ) +
   geom_boxplot() +
   labs(
@@ -104,7 +104,7 @@ rna_count_plot <- ggplot(
 
 boxplot_data_tpm <- data.frame(
   type = factor(rep(
-    c("full", "full_all"), each = length(gene_counts_full)
+    c("hg38", "hg38 & Sponge"), each = length(gene_counts_full)
   )),
   value = c(
     gene_tpm_full,       # full TPM
@@ -115,7 +115,7 @@ boxplot_data_tpm <- data.frame(
 # Create boxplot
 rna_tpm_plot <- ggplot(
   boxplot_data_tpm,
-  aes(x = type, y = value)
+  aes(x = type, y = value, fill = type)
 ) +
   geom_boxplot() +
   labs(

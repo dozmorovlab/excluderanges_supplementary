@@ -3012,12 +3012,15 @@ list_colors_fig_aligners <- na.omit(list_colors_fig_aligners)
 list_names_fig_aligners_2 <- unname(names_dict[
   sub(paste0(".bed", "$"), "", names(n_bams_all_fig_aligners_2))
 ])
-list_colors_fig_aligners_2 <- ggsci::pal_lancet(
-  palette = "lanonc",
-  alpha = 1
-)(
-  length(list_names_fig_aligners_2)
-)
+
+original_palette <- ggsci::pal_lancet("lanonc")(3)
+
+colors_36 <- colorRampPalette(c("darkorange4", "gold"))(4)
+colors_101 <- colorRampPalette(c("#500064", "#ff437b"))(4)
+
+# Combine the original and viridis colors
+list_colors_fig_aligners_2 <- c(original_palette, colors_36, colors_101)
+
 # Define colors
 list_colors_fig_aligners_2 <- c(list_colors_fig_aligners_2, "darkgrey", "black")
 color_order_fig_aligners_2 <- c(list_names_fig_aligners_2, "Gaps", "Shared")

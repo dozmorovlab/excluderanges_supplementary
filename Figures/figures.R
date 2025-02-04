@@ -1,5 +1,9 @@
 # Define the list of required packages
 required_packages <- c(
+  "limma",
+  "data.table",
+  "tidyverse",
+  "edgeR",
   "TxDb.Hsapiens.UCSC.hg38.knownGene",
   "TxDb.Mmusculus.UCSC.mm10.knownGene",
   "GenomicRanges",
@@ -35,11 +39,7 @@ required_packages <- c(
   "readxl",
   "stringr",
   "ggridges",
-  "svglite",
-  "data.table",
-  "tidyverse",
-  "edgeR",
-  "limma"
+  "svglite"
 )
 
 # Function to check if a package is installed and install it if not
@@ -1743,7 +1743,7 @@ fig_aligners_S5 <- (
 
 export_fig(
   fig_aligners_S5,
-  "Supplementary_Figure_S5"
+  "Supplementary_Figure_S6"
 )
 
 #plot_fig_2_exp_a_embeddings <- fig_2_expanded_plot +
@@ -1758,6 +1758,15 @@ export_fig(
 #    legend.position = "none",
 #  )
 
+
+plot_fig_2_exp_mds_1 <- get_p_c_plots(
+  j_c_distance_matrix_fig_2_exp,
+  "Jaccard Count Overlap",
+  text_size,
+  point_size,
+  parameter_test = FALSE,
+  colors_ = list_colors_fig_2_exp
+)
 
 plot_fig_2_exp_mds_3 <- get_p_c_plots(
   f_w_distance_matrix_fig_2_exp,
@@ -1779,7 +1788,7 @@ plot_fig_2_exp_den_3 <- get_dendro_plot(
   "ward.D2"
 )
 
-fig_2_exp_S8_a <- fig_aligners_S2_a +
+fig_2_exp_S8_a <- plot_fig_2_exp_mds_1 +
   labs(
     subtitle = NULL,
     tag = "A"
@@ -1813,7 +1822,7 @@ fig_2_exp_S8 <- (
 
 export_fig(
   fig_2_exp_S8,
-  "Supplementary_Figure_S9"
+  "Supplementary_Figure_S11"
 )
 
 ### S4
@@ -1925,7 +1934,7 @@ fig_aln_S6 <- (fig_aln_S4_a | fig_aln_S4_b) +
 
 export_fig(
   fig_aln_S6,
-  "Supplementary_Figure_S6"
+  "Supplementary_Figure_S7"
 )
 
 ## Merged
@@ -2435,7 +2444,7 @@ fig_para_mds <- wrap_plots(
 
 export_fig(
   fig_para_mds,
-  "Supplementary_Figure_S7",
+  "Supplementary_Figure_S9",
   x = 7,
   y = 3
 )
@@ -2552,5 +2561,5 @@ fig_S11 <- wrap_plots(
 
 export_fig(
   fig_S11,
-  "Supplementary_Figure_S11"
+  "Supplementary_Figure_S12"
 )
