@@ -1,5 +1,5 @@
 # ExcludeRanges Supplementary
-A repository for suplemmental data and scripts used for our publication.
+A repository for supplemmental data and scripts used for our publication.
 
 ## Figures
 
