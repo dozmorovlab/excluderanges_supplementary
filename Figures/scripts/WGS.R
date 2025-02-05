@@ -47,6 +47,11 @@ filtered_plot <- ggplot(
   aes(x = Category, y = Count, fill = Type)
 ) +
   geom_bar(stat = "identity", position = "stack") +
+  geom_text(
+    aes(label = Count),
+    position = position_stack(vjust = 0.5), # Center within stacked bars
+    size = 4
+  ) +
   facet_wrap(~ Variant) +  # Separate SNPs and INDELs
   labs(
     title = NULL,

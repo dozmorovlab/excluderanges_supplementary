@@ -1823,7 +1823,7 @@ fig_2_exp_S8 <- (
 
 export_fig(
   fig_2_exp_S8,
-  "Supplementary_Figure_S11"
+  "Supplementary_Figure_S10"
 )
 
 ### S4
@@ -2515,7 +2515,7 @@ export_fig(
 # TF Boxplots (S10) (summary_heatmaps.R)
 export_fig(
   tf_boxplots_all,
-  "Supplementary_Figure_S10",
+  "Supplementary_Figure_S11",
   scale = 3
 )
 
@@ -2553,7 +2553,7 @@ signal_plot[[1]][[1]] <- signal_plot[[1]][[1]] +
 fig_S11_a <- signal_plot
 
 fig_S11_b <- (
-  (rna_count_plot + labs(tag = "B")) / filtered_plot +
+  (rna_count_plot + labs(tag = "B")) / (filtered_plot + labs(tag = "C")) +
     theme(legend.box.margin = margin(0, 0, 0, -160))
 )
 
@@ -2566,4 +2566,23 @@ fig_S11 <- wrap_plots(
 export_fig(
   fig_S11,
   "Supplementary_Figure_S12"
+)
+
+## Blacklist Algorithm S5
+
+png_bl <- file.path("images", "blacklist.png")
+
+ratio_bl <- get_ratio(png_bl)
+
+bl_plot <- ggdraw(xlim = c(0, ratio_bl), ylim = c(0, 1)) +
+  draw_image(png_bl, x = 0, y = 0, width = ratio_bl, height = 1)
+
+fig_bl <- bl_plot +
+  theme(
+    plot.tag = element_text(face = "plain")
+  )
+
+export_fig(
+  fig_bl,
+  "Supplementary_Figure_S5"
 )
