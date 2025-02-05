@@ -221,12 +221,12 @@ get_sig_plot <- function(bp) {
 plot_36_list <- get_sig_plot(36)
 plot_101_list <- get_sig_plot(101)
 
-c_plot <- plot_36_list$counts / plot_101_list$counts +
-  plot_layout(guides = "collect") &
+c_plot <- (
+  plot_36_list$counts + theme(legend.position = "none")
+) / (plot_101_list$counts + theme(legend.position = "right")) &
   theme(
-    legend.position = "bottom",
     legend.title = element_blank(),
-    legend.box.margin = margin(-160, 0, 0, 0)
+    legend.box.margin = margin(0, 0, 0, -160)
   ) &
   scale_fill_manual(
     labels = c("hg38", "Sponge"),
@@ -241,3 +241,5 @@ p_plot <- plot_36_list$percents / plot_101_list$percents +
   labs(title = NULL)
 
 signal_plot <- c_plot | p_plot
+
+signal_plot

@@ -158,6 +158,7 @@ source(file.path("scripts", "BAMs.R"))
 source(file.path("scripts", "signal.R"))
 source(file.path("scripts", "summary_heatmaps.R"))
 source(file.path("scripts", "RNA-seq_sponge.R"))
+source(file.path("scripts", "WGS.R"))
 
 ## Figure 1
 ### A
@@ -2551,7 +2552,10 @@ signal_plot[[1]][[1]] <- signal_plot[[1]][[1]] +
 
 fig_S11_a <- signal_plot
 
-fig_S11_b <- ((rna_count_plot + labs(tag = "B")) / rna_tpm_plot)
+fig_S11_b <- (
+  (rna_count_plot + labs(tag = "B")) / filtered_plot +
+    theme(legend.box.margin = margin(0, 0, 0, -160))
+)
 
 fig_S11 <- wrap_plots(
   list(fig_S11_a, fig_S11_b),

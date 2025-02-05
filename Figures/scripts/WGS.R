@@ -2,11 +2,10 @@ library(ggplot2)
 library(patchwork)
 library(tidyverse)
 
-setwd(file.path(here::here(), "Scripts", "WGS", "process_results"))
+setwd(file.path(here::here(), "Figures"))
 
-#isec_df <- read.csv(file.path("data", "isec_counts.csv"))
-lost_df <- read.csv(file.path("data", "lost_counts.csv"))
-gained_df <- read.csv(file.path("data", "gained_counts.csv"))
+lost_df <- read.csv(file.path("data", "WGS", "lost_counts.csv"))
+gained_df <- read.csv(file.path("data", "WGS", "gained_counts.csv"))
 
 lost_df <- lost_df[
   lost_df$File %in% c("lost_unique.vcf", "lost_shared.vcf"),
@@ -43,14 +42,14 @@ counts_df$Category <- factor(counts_df$Category, levels = c("Lost", "Gained"))
 counts_df$Variant <- factor(counts_df$Variant, levels = c("SNPS", "INDELS"))
 
 # Plot
-ggplot(
+filtered_plot <- ggplot(
   counts_df,
   aes(x = Category, y = Count, fill = Type)
 ) +
   geom_bar(stat = "identity", position = "stack") +
   facet_wrap(~ Variant) +  # Separate SNPs and INDELs
   labs(
-    title = "Unfiltered VCFs",
+    title = NULL,
     x = NULL,
     y = "Count",
     fill = NULL

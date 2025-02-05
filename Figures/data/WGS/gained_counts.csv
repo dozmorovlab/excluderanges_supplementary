@@ -1,0 +1,4 @@
+File,TOTAL,SNPS,INDELS
+gained_unique.vcf,23363,19279,4084
+gained_shared.vcf,430,297,133
+benchmark_shared.vcf,430,297,133

@@ -1,0 +1,4 @@
+File,TOTAL,SNPS,INDELS
+lost_unique.vcf,108270,94660,13610
+lost_shared.vcf,4353,2924,1429
+benchmark_shared.vcf,4353,2924,1429
