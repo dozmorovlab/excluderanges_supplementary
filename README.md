@@ -25,6 +25,12 @@ Short-read sequencing data can be affected by alignment artifacts in certain gen
 
 ### [Supplementary Figures](Figures/README.md)
 
+### The [Blacklist](https://github.com/Boyle-Lab/Blacklist) algorithm
+
+[Supplementary Note](Figures/Supplementary_Note.pdf)
+
+![Figure S5](Figures/figures/Supplementary_Figure_S5.svg)
+**Supplementary Figure S5. The Blacklist Algorithm.**  A) **Binning parameters:** Two internal parameters, "binSize" and "binOverlap," define how bins are created. B) **Read sorting:** The start position of each read is sorted according to the read’s length and compared using the given pre-calculated mappability vector. C) **The “binsMap” vector:** This vector is generated using the "uniqueLength" threshold. D) **Normalization:** The signal ("Unique") and mappability ("Multi") vectors are divided, quantile normalized, and the median is taken per bin. E) **Region calling:** This step uses several predefined internal parameters/thresholds to call and annotate excludable regions.  
 
 ### `./Scripts`
 A directory containing various scripts used to generate the data for our publication.
