@@ -1,0 +1,11 @@
+List,Total | Count,"Total | Coverage, bp","Summary of region widths, bp | Minimum","Summary of region widths, bp | Mean / Median","Summary of region widths, bp | Max",Number of regions / Coverage proportion of | Centromeres,Number of regions / Coverage proportion of | Telomeres,Number of regions / Coverage proportion of | Short Arms
+GitHub Blacklist,636,227162400,1200,357174 / 10150,30590100,30 / 97.6%,35 / 72.7%,3 / 58.9%
+hg38 Generated List,1273,271267100,1000,213093 / 6300,30602600,42 / 96.7%,32 / 66.5%,4 / 83.7%
+mm10 GitHub List,3435,238977200,1000,69571 / 8100,50585400,72 / 2.7%,17 / 35.4%,86 / 23.4%
+mm10 Generated List,2970,253654600,1000,85406 / 12600,91744600,74 / 4.0%,17 / 37.5%,76 / 24.0%
+hg38 Kundaje Unified,910,71570285,19,78649 / 384,5407756,27 / 97.7%,1 / 0.0%,0 / 0.0%
+High Signal + Centromere,2831,71535766,1000,25269 / 3083,5400309,24 / 100.0%,1 / 0.0%,2 / 0.0%
+Low Mappability,3691,153220769,1001,41512 / 1823,18171354,984 / 28.7%,46 / 95.8%,5 / 100.0%
+HS + LM + CM,5409,206519467,1000,38181 / 2885,18223524,23 / 99.6%,47 / 95.8%,5 / 100.0%
+hg38 Nordin CUT&RUN,884,4463850,2,5050 / 2878,93434,555 / 4.2%,7 / 1.4%,0 / 0.0%
+GreyListChIP STAR 1k,22480,9270576,1,412 / 36,140768,5673 / 4.5%,0 / 0.0%,0 / 0.0%
