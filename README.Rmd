@@ -62,7 +62,7 @@ table_flex <- flextable(df) |>
   fit_to_width(max_width = 6.5)
 
 bg(table_flex, bg = "white", part = "all")
-table_flex
+# table_flex
 ```
 
 ### The [Blacklist](https://github.com/Boyle-Lab/Blacklist) algorithm

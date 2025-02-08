@@ -95,7 +95,7 @@ figures themselves.
 **Table 1. Characteristics of the hg38 exclusion sets.** Total number of
 regions, average region width, number of regions overlapping gaps, and
 proportion of gap coverage.
-<img src="README_files/figure-gfm/table function-1.png" width="1219" /><img src="README_files/figure-gfm/table function-2.png" width="1219" />
+<img src="README_files/figure-gfm/table function-1.png" width="1219" />
 
 ### The [Blacklist](https://github.com/Boyle-Lab/Blacklist) algorithm
 
