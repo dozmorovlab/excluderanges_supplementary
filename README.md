@@ -1,15 +1,16 @@
+# Beyond Blacklists: A Critical Assessment of Exclusion Set Generation Strategies and Alternative Approaches
 
-- [Supplementary material for “Beyond Blacklists: A Critical Assessment
-  of Exclusion Set Generation Strategies and Alternative
-  Approaches”](#supplementary-material-for-beyond-blacklists-a-critical-assessment-of-exclusion-set-generation-strategies-and-alternative-approaches)
-  - [Preprint](#preprint)
-  - [Abstract](#abstract)
-  - [Figures](#figures)
+- [Preprint](#preprint)
+- [Abstract](#abstract)
+- [Figures](#figures)
+  - [Figures](#figures-1)
+  - [Tables](#tables)
+  - [The Blacklist algorithm](#the-blacklist-algorithm)
+  - [Scripts](#scripts)
 
-<!-- README.md is generated from README.Rmd. Please edit this file, then 
-rmarkdown::render("README.Rmd") -->
-
-# Supplementary material for “Beyond Blacklists: A Critical Assessment of Exclusion Set Generation Strategies and Alternative Approaches”
+<!-- README.md is generated from README.Rmd. Please edit this file -->
+<!-- rmarkdown::render("README.Rmd", output_format = "github_document") -->
+<!-- Manually move the first header above the TOC -->
 
 ![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)
@@ -93,7 +94,7 @@ figures themselves.
 **Table 1. Characteristics of the hg38 exclusion sets.** Total number of
 regions, average region width, number of regions overlapping gaps, and
 proportion of gap coverage.
-<img src="README_files/figure-gfm/table function-1.png" width="1219" />
+<img src="README_files/figure-gfm/table function-1.png" width="1219" /><img src="README_files/figure-gfm/table function-2.png" width="1219" />
 
 ### The [Blacklist](https://github.com/Boyle-Lab/Blacklist) algorithm
 

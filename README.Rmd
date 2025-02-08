@@ -2,17 +2,18 @@
 output: 
   github_document:
     toc: true
-    toc_depth: 2  # Only include level 2 headers and below in the TOC
 editor_options: 
   chunk_output_type: console
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit this file, then 
-rmarkdown::render("README.Rmd") -->
+<!-- README.md is generated from README.Rmd. Please edit this file --> 
+<!-- rmarkdown::render("README.Rmd", output_format = "github_document") -->
+<!-- Manually move the first header above the TOC -->
 
-# Supplementary material for "Beyond Blacklists: A Critical Assessment of Exclusion Set Generation Strategies and Alternative Approaches"
+# Beyond Blacklists: A Critical Assessment of Exclusion Set Generation Strategies and Alternative Approaches
 ![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)
 ![License: GPL-3.0](https://img.shields.io/badge/license-GPL%203-blue.svg)
+
 
 ## Preprint
 
@@ -48,7 +49,8 @@ library(flextable)
 # flextable defaults
 set_flextable_defaults(
   theme_fun = theme_vanilla,
-  big.mark = ""
+  big.mark = "",
+  bg = "white"  # Set default background color to white
 )
 
 # Load Excel file (make sure the path is correct)
@@ -59,6 +61,7 @@ table_flex <- flextable(df) |>
   separate_header(split = " | ", fixed = TRUE) |>
   fit_to_width(max_width = 6.5)
 
+bg(table_flex, bg = "white", part = "all")
 table_flex
 ```
 
