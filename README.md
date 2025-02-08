@@ -6,6 +6,7 @@
   - [Figures](#figures-1)
   - [Tables](#tables)
   - [The Blacklist algorithm](#the-blacklist-algorithm)
+  - [hg38 sponge sequences](#hg38-sponge-sequences)
   - [Scripts](#scripts)
 
 <!-- README.md is generated from README.Rmd. Please edit this file -->
@@ -115,6 +116,16 @@ D) **Normalization:** The signal (“Unique”) and mappability (“Multi”)
 vectors are divided, quantile normalized, and the median is taken per
 bin. E) **Region calling:** This step uses several predefined internal
 parameters/thresholds to call and annotate excludable regions.
+
+### [hg38 sponge sequences](Sponge)
+
+[GRCh38_sponge.fa.gz](Sponge/GRCh38_sponge.fa.gz), 25Mb
+
+**Source:** Miga, Karen H., Christopher Eisenhart, and W. James Kent.
+“Utilizing mapping targets of sequences underrepresented in the
+reference assembly to reduce false positive alignments.” Nucleic acids
+research (2015), <https://doi.org/10.1093/nar/gkv671>, [Supplementary
+Data](https://academic.oup.com/nar/article/43/20/e133/1398360#81910257)
 
 ### [Scripts](Scripts)
 
