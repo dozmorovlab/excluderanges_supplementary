@@ -23,7 +23,8 @@ Short-read sequencing data can be affected by alignment artifacts in certain gen
 ![Figure 5](Figures/figures/Figure_5.svg)
 **Figure 5. Changes in ChIP-seq signal correlation with and without reads overlapping exclusion sets or aligned to the sponge.** Data for the Gm12878 cell line is shown. A) Heatmaps of correlation differences for each exclusion set, sorted by mean (red/blue gradient corresponds to decreases/increases in correlations, respectively); B) Correlation difference distributions for the top three most affected transcription factors.
 
-### [Supplementary Figures](Figures/README.md)
+### [Figures](Figures/README.md)
+Supplementary figures and scripts needed to make the figures, and the figures themselves.
 
 ### The [Blacklist](https://github.com/Boyle-Lab/Blacklist) algorithm
 
@@ -34,5 +35,5 @@ Short-read sequencing data can be affected by alignment artifacts in certain gen
 ![Figure S5](Figures/figures/Supplementary_Figure_S5.svg)
 **Supplementary Figure S5. The Blacklist Algorithm.**  A) **Binning parameters:** Two internal parameters, "binSize" and "binOverlap," define how bins are created. B) **Read sorting:** The start position of each read is sorted according to the read’s length and compared using the given pre-calculated mappability vector. C) **The “binsMap” vector:** This vector is generated using the "uniqueLength" threshold. D) **Normalization:** The signal ("Unique") and mappability ("Multi") vectors are divided, quantile normalized, and the median is taken per bin. E) **Region calling:** This step uses several predefined internal parameters/thresholds to call and annotate excludable regions.  
 
-### `./Scripts`
-A directory containing various scripts used to generate the data for our publication.
+### [Scripts](Scripts)
+A directory containing various scripts used to generate the data.
