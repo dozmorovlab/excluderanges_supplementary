@@ -22,34 +22,9 @@ Short-read sequencing data can be affected by alignment artifacts in certain gen
 
 ![Figure 5](Figures/figures/Figure_5.svg)
 **Figure 5. Changes in ChIP-seq signal correlation with and without reads overlapping exclusion sets or aligned to the sponge.** Data for the Gm12878 cell line is shown. A) Heatmaps of correlation differences for each exclusion set, sorted by mean (red/blue gradient corresponds to decreases/increases in correlations, respectively); B) Correlation difference distributions for the top three most affected transcription factors.
-![Figure S1](Figures/figures/Supplementary_Figure_S1.svg)
 
-![Figure S2](Figures/figures/Supplementary_Figure_S2.svg)
+### [Supplementary Figures](Figures/README.md)
 
-![Figure S3](Figures/figures/Supplementary_Figure_S3.svg)
-
-![Figure S4](Figures/figures/Supplementary_Figure_S4.svg)
-
-![Figure S5](Figures/figures/Supplementary_Figure_S5.svg)
-
-![Figure S6](Figures/figures/Supplementary_Figure_S6.svg)
-
-![Figure S7](Figures/figures/Supplementary_Figure_S7.svg)
-
-![Figure S8](Figures/figures/Supplementary_Figure_S8.svg)
-
-![Figure S9](Figures/figures/Supplementary_Figure_S9.svg)
-
-![Figure S10](Figures/figures/Supplementary_Figure_S10.svg)
-
-![Figure S11](Figures/figures/Supplementary_Figure_S11.svg)
-
-![Figure S12](Figures/figures/Supplementary_Figure_S12.svg)
-
-## Directories
-
-### `./Figures`
-A directory containing the data, scripts needed to make the figures, and the figures themselves used in our publication.
 
 ### `./Scripts`
 A directory containing various scripts used to generate the data for our publication.
