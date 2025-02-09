@@ -20,6 +20,10 @@ GPL-3.0](https://img.shields.io/badge/license-GPL%203-blue.svg)
 
 ## Preprint
 
+**Beyond Blacklists: A Critical Assessment of Exclusion Set Generation Strategies and Alternative Approaches**  
+Brydon P.G. Wall, Jonathan D. Ogata, My Nguyen, Joseph L. McClay, Chuck Harrell, Mikhail G Dozmorov  
+bioRxiv 2025.02.06.636968; doi: https://doi.org/10.1101/2025.02.06.636968  
+
 ## Abstract
 
 Short-read sequencing data can be affected by alignment artifacts in

@@ -17,6 +17,10 @@ editor_options:
 
 ## Preprint
 
+**Beyond Blacklists: A Critical Assessment of Exclusion Set Generation Strategies and Alternative Approaches**  
+Brydon P.G. Wall, Jonathan D. Ogata, My Nguyen, Joseph L. McClay, Chuck Harrell, Mikhail G Dozmorov  
+bioRxiv 2025.02.06.636968; doi: https://doi.org/10.1101/2025.02.06.636968  
+
 ## Abstract
 
 Short-read sequencing data can be affected by alignment artifacts in certain genomic regions. Removing reads overlapping these exclusion regions, previously known as Blacklists, help to potentially improve biological signal. Tools like the widely used Blacklist software facilitate this process, but their algorithmic details and parameter choices are not always clearly documented, affecting reproducibility and biological relevance. We examined the Blacklist software and found that pre-generated exclusion sets were difficult to reproduce due to variability in input data, aligner choice, and read length. We also identified and addressed a coding issue that led to over-annotation of high-signal regions. We further explored the use of "sponge" sequences—unassembled genomic regions such as satellite DNA, ribosomal DNA, and mitochondrial DNA—as an alternative approach. Aligning reads to a genome that includes sponge sequences reduced signal correlation in ChIP-seq data comparably to Blacklist-derived exclusion sets while preserving biological signal. Sponge-based alignment also had minimal impact on RNA-seq gene counts, suggesting broader applicability beyond chromatin profiling. These results highlight the limitations of fixed exclusion sets and suggest that sponge sequences offer a flexible, alignment-guided strategy for reducing artifacts and improving functional genomics analyses.
