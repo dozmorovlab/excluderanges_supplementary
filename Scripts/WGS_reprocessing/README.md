@@ -1,5 +1,3 @@
-> Page 16 line 38, is the comparison all SNPs called in T2T compared to the GIAB benchmark? This is likely to inflate FP since many regions in T2T wouldn't be covered by the benchmark.  If the authors didn't already, I suggest restricting this analysis to regions with hg38 correspondence in the T2T assembly.
-
 # T2T variants within hg38 common regions
 
 - `02_annotate_reannotate.sh` - commands to reannotate T2T-called SNPs focusing on regions common between T2T anf hg38 genome assemblies
