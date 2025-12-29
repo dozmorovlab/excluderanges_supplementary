@@ -1,0 +1,115 @@
+---
+title: "Realigned Blacklist comparison"
+output: html_document
+date: "2025-12-29"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+### R Setup and Data Loading
+
+```{r}
+library(tidyverse)
+library(GenomicRanges)
+library(ChIPpeakAnno)
+library(ggvenn)
+
+# Define file paths
+paths <- list(
+  hg38_autosome = "/Users/mdozmorov/Documents/Work/GitHub/excluderanges.dev/Brydon/comparisons/data/gold_standard/250.bed",
+  hg38_full_sponge = "/Users/mdozmorov/Documents/Work/GitHub/excluderanges.dev/manuscript/2025-12.Revision1/Realignment/hg38_full_sponge_Blacklist_generated.bed",
+  hg38_from_t2t = "/Users/mdozmorov/Documents/Work/GitHub/excluderanges.dev/manuscript/2025-12.Revision1/Realignment/hg38_from_t2t_Blacklist_generated.bed"
+)
+
+# Updated function using read_tsv to respect spaces within columns
+read_bed <- function(path, name) {
+  read_tsv(
+    path, 
+    col_names = c("chr", "start", "end", "category"), 
+    col_types = "ciic",
+    show_col_types = FALSE
+  ) %>%
+    mutate(source = name, width = end - start)
+}
+# Load data frames
+hg38_autosome <- read_bed(paths$hg38_autosome, "hg38_autosome")
+hg38_full_sponge <- read_bed(paths$hg38_full_sponge, "hg38_full_sponge")
+hg38_from_t2t <- read_bed(paths$hg38_from_t2t, "hg38_from_t2t")
+
+# Combine for easier summary/plotting
+all_data <- bind_rows(hg38_autosome, hg38_full_sponge, hg38_from_t2t)
+
+```
+
+### 1. Descriptive Statistics
+
+Here we summarize the total regions, category proportions, and width distributions.
+
+```{r}
+# Summary table function
+get_summary <- function(df, name) {
+  cat("\n--- Summary for:", name, "---\n")
+  cat("Total Regions:", nrow(df), "\n\n")
+  
+  cat("Category Counts and Proportions:\n")
+  df %>% 
+    group_by(category) %>% 
+    summarise(count = n()) %>% 
+    mutate(proportion = round(count / sum(count), 4)) %>% 
+    print()
+  
+  cat("\nWidth Distribution Summary:\n")
+  print(summary(df$width))
+}
+
+get_summary(hg38_autosome, "hg38_autosome")
+get_summary(hg38_full_sponge, "hg38_full_sponge")
+get_summary(hg38_from_t2t, "hg38_from_t2t")
+
+```
+
+### 2. Width Density Plot
+
+This plot displays the overlapping density of region widths across the three datasets. We use a log10 scale for the x-axis, as genomic intervals often vary by several orders of magnitude.
+
+```{r}
+ggplot(all_data, aes(x = width, fill = source)) +
+  geom_density(alpha = 0.4) +
+  scale_x_log10() +
+  theme_minimal() +
+  labs(title = "Width Distribution of BED Regions",
+       x = "Width (bp, log10 scale)",
+       y = "Density",
+       fill = "Dataset")
+
+```
+
+### 3. Venn Diagrams
+
+To calculate overlaps, we convert the data frames into `GRanges` objects.
+
+```{r}
+# Convert to GRanges
+make_gr <- function(df) {
+  makeGRangesFromDataFrame(df, keep.extra.columns = TRUE, 
+                           ignore.strand = TRUE, 
+                           seqnames.field = "chr", 
+                           start.field = "start", 
+                           end.field = "end")
+}
+
+gr_list <- list(
+  hg38_autosome = make_gr(hg38_autosome),
+  hg38_full_sponge = make_gr(hg38_full_sponge),
+  hg38_from_t2t = make_gr(hg38_from_t2t)
+)
+
+# A. ChIPpeakAnno Venn Diagram
+# Note: makeVennDiagram performs genomic overlaps
+res <- makeVennDiagram(Peaks = list(gr_list[[1]], gr_list[[2]], gr_list[[3]]),
+                       NameOfPeaks = names(gr_list),
+                       totalTest = 1000000) # Required for p-value calc
+
+```

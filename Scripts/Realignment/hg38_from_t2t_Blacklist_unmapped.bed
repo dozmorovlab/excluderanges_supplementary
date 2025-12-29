@@ -1,0 +1,878 @@
+#Split in new
+chr1	0	257600	High_Signal_Region
+#Partially deleted in new
+chr1	717400	721700	High_Signal_Region
+#Partially deleted in new
+chr1	2094700	2103700	High_Signal_Region
+#Split in new
+chr1	15954600	16716400	High_Signal_Region
+#Partially deleted in new
+chr1	31284700	31289400	High_Signal_Region
+#Split in new
+chr1	108258700	108369000	High_Signal_Region
+#Split in new
+chr1	108417100	108528200	High_Signal_Region
+#Split in new
+chr1	121584300	126691700	High_Signal_Region
+#Split in new
+chr1	126928000	127496100	Low_Mappability
+#Deleted in new
+chr1	127573300	127679500	Low_Mappability
+#Deleted in new
+chr1	128002800	128292200	High_Signal_Region
+#Deleted in new
+chr1	128317400	128843500	High_Signal_Region
+#Split in new
+chr1	128927300	142211500	High_Signal_Region
+#Partially deleted in new
+chr1	142237600	142277600	High_Signal_Region
+#Split in new
+chr1	142935300	143520200	High_Signal_Region
+#Split in new
+chr1	143541100	144552400	High_Signal_Region
+#Split in new
+chr1	145169100	145642400	High_Signal_Region
+#Split in new
+chr1	145671300	146366300	High_Signal_Region
+#Split in new
+chr1	148420200	149011500	High_Signal_Region
+#Split in new
+chr1	160559700	160734800	High_Signal_Region
+#Split in new
+chr1	160820900	161015200	High_Signal_Region
+#Partially deleted in new
+chr1	201463900	201467300	High_Signal_Region
+#Partially deleted in new
+chr1	210245800	210249800	High_Signal_Region
+#Split in new
+chr1	227744400	228041100	High_Signal_Region
+#Partially deleted in new
+chr1	245444500	245446100	High_Signal_Region
+#Partially deleted in new
+chr1	246245500	246249800	High_Signal_Region
+#Split in new
+chr1	247828500	247853900	High_Signal_Region
+#Partially deleted in new
+chr1	248371400	248387300	High_Signal_Region
+#Partially deleted in new
+chr10	0	54100	Low_Mappability
+#Partially deleted in new
+chr10	439900	473300	High_Signal_Region
+#Partially deleted in new
+chr10	3315200	3317600	High_Signal_Region
+#Partially deleted in new
+chr10	25437000	25455800	High_Signal_Region
+#Partially deleted in new
+chr10	26915900	26924600	High_Signal_Region
+#Split in new
+chr10	37199800	37233300	High_Signal_Region
+#Split in new
+chr10	39642700	41922200	High_Signal_Region
+#Split in new
+chr10	42101800	42981400	High_Signal_Region
+#Split in new
+chr10	48350600	49017000	High_Signal_Region
+#Split in new
+chr10	92310200	92339100	High_Signal_Region
+#Partially deleted in new
+chr10	105686700	105689100	High_Signal_Region
+#Partially deleted in new
+chr10	127830500	127842000	High_Signal_Region
+#Partially deleted in new
+chr10	129366300	129388900	High_Signal_Region
+#Deleted in new
+chr10	133307100	133309900	High_Signal_Region
+#Split in new
+chr10	134577100	134758100	High_Signal_Region
+#Split in new
+chr11	0	235800	High_Signal_Region
+#Split in new
+chr11	348700	363800	Low_Mappability
+#Partially deleted in new
+chr11	563300	578100	High_Signal_Region
+#Partially deleted in new
+chr11	631500	634800	High_Signal_Region
+#Partially deleted in new
+chr11	691300	693500	High_Signal_Region
+#Partially deleted in new
+chr11	786000	787900	High_Signal_Region
+#Partially deleted in new
+chr11	1148600	1171100	High_Signal_Region
+#Partially deleted in new
+chr11	1365200	1366600	High_Signal_Region
+#Partially deleted in new
+chr11	1754400	1756200	High_Signal_Region
+#Split in new
+chr11	4331500	4367900	High_Signal_Region
+#Partially deleted in new
+chr11	7913100	7946200	High_Signal_Region
+#Partially deleted in new
+chr11	9789000	9791000	High_Signal_Region
+#Partially deleted in new
+chr11	10698900	10700800	High_Signal_Region
+#Partially deleted in new
+chr11	20669100	20670400	High_Signal_Region
+#Partially deleted in new
+chr11	33760200	33785500	High_Signal_Region
+#Partially deleted in new
+chr11	34823500	34830500	High_Signal_Region
+#Partially deleted in new
+chr11	43088700	43108900	High_Signal_Region
+#Partially deleted in new
+chr11	46877100	46878900	High_Signal_Region
+#Partially deleted in new
+chr11	51027300	54473100	High_Signal_Region
+#Split in new
+chr11	61159000	61235300	High_Signal_Region
+#Partially deleted in new
+chr11	68641700	68650800	High_Signal_Region
+#Partially deleted in new
+chr11	77029200	77030300	High_Signal_Region
+#Split in new
+chr11	89664700	90016200	High_Signal_Region
+#Partially deleted in new
+chr11	114636500	114650400	High_Signal_Region
+#Partially deleted in new
+chr11	114851300	114857200	High_Signal_Region
+#Partially deleted in new
+chr11	121196400	121211400	High_Signal_Region
+#Partially deleted in new
+chr11	127901900	127905800	High_Signal_Region
+#Partially deleted in new
+chr11	134871700	134900000	High_Signal_Region
+#Deleted in new
+chr11	135124900	135127700	High_Signal_Region
+#Partially deleted in new
+chr12	0	61400	High_Signal_Region
+#Partially deleted in new
+chr12	192800	194300	High_Signal_Region
+#Partially deleted in new
+chr12	2251500	2257400	High_Signal_Region
+#Partially deleted in new
+chr12	9463600	9468600	High_Signal_Region
+#Split in new
+chr12	13266000	13274800	High_Signal_Region
+#Split in new
+chr12	33017700	33043700	High_Signal_Region
+#Split in new
+chr12	34593100	37199000	High_Signal_Region
+#Partially deleted in new
+chr12	46935100	46958700	High_Signal_Region
+#Partially deleted in new
+chr12	117357300	117362900	High_Signal_Region
+#Partially deleted in new
+chr12	127571400	127572500	High_Signal_Region
+#Partially deleted in new
+chr12	129889600	129894700	High_Signal_Region
+#Partially deleted in new
+chr12	131318000	131354400	Low_Mappability
+#Partially deleted in new
+chr12	131516700	131521300	High_Signal_Region
+#Partially deleted in new
+chr12	132184300	132201000	High_Signal_Region
+#Partially deleted in new
+chr12	132281500	132295900	High_Signal_Region
+#Partially deleted in new
+chr12	132432800	132435700	High_Signal_Region
+#Partially deleted in new
+chr12	133304700	133324500	High_Signal_Region
+#Deleted in new
+chr13	0	10467500	High_Signal_Region
+#Partially deleted in new
+chr13	10491800	13569900	High_Signal_Region
+#Partially deleted in new
+chr13	13695900	17544400	High_Signal_Region
+#Partially deleted in new
+chr13	112675300	112695400	High_Signal_Region
+#Partially deleted in new
+chr13	113560500	113566600	High_Signal_Region
+#Deleted in new
+chr14	0	2894000	High_Signal_Region
+#Deleted in new
+chr14	2916700	3919000	High_Signal_Region
+#Deleted in new
+chr14	4034400	4056100	High_Signal_Region
+#Deleted in new
+chr14	4703200	4890700	High_Signal_Region
+#Deleted in new
+chr14	5642300	5894100	High_Signal_Region
+#Deleted in new
+chr14	6124100	6310100	High_Signal_Region
+#Deleted in new
+chr14	6419000	6536600	High_Signal_Region
+#Deleted in new
+chr14	6572300	8362200	High_Signal_Region
+#Deleted in new
+chr14	8513600	8839900	High_Signal_Region
+#Split in new
+chr14	8861700	9654800	High_Signal_Region
+#Deleted in new
+chr14	9731300	12942200	High_Signal_Region
+#Partially deleted in new
+chr14	12995600	13174200	High_Signal_Region
+#Split in new
+chr14	13198900	13923000	High_Signal_Region
+#Partially deleted in new
+chr14	18169100	18228900	High_Signal_Region
+#Split in new
+chr14	28739400	28758400	Low_Mappability
+#Partially deleted in new
+chr14	31485200	31491000	High_Signal_Region
+#Partially deleted in new
+chr14	62562600	62563900	High_Signal_Region
+#Partially deleted in new
+chr14	94159400	94161000	High_Signal_Region
+#Partially deleted in new
+chr14	99471500	99488100	Low_Mappability
+#Split in new
+chr14	99867400	99909700	High_Signal_Region
+#Deleted in new
+chr15	0	2083600	High_Signal_Region
+#Deleted in new
+chr15	2120900	5460100	High_Signal_Region
+#Deleted in new
+chr15	5482900	13916700	High_Signal_Region
+#Deleted in new
+chr15	14943800	14953100	High_Signal_Region
+#Partially deleted in new
+chr15	15418200	15700300	High_Signal_Region
+#Deleted in new
+chr15	15999000	16553600	High_Signal_Region
+#Partially deleted in new
+chr15	16669300	17690800	High_Signal_Region
+#Split in new
+chr15	17919000	18844000	High_Signal_Region
+#Split in new
+chr15	18891700	18932200	High_Signal_Region
+#Split in new
+chr15	19210900	19647300	High_Signal_Region
+#Split in new
+chr15	19740400	20278400	High_Signal_Region
+#Split in new
+chr15	26047800	26458700	High_Signal_Region
+#Split in new
+chr15	82032600	82277000	High_Signal_Region
+#Partially deleted in new
+chr15	95421400	95423200	High_Signal_Region
+#Partially deleted in new
+chr15	99655800	99753100	High_Signal_Region
+#Partially deleted in new
+chr16	0	22800	High_Signal_Region
+#Partially deleted in new
+chr16	494700	507300	High_Signal_Region
+#Partially deleted in new
+chr16	852300	869800	High_Signal_Region
+#Partially deleted in new
+chr16	15094400	15160900	High_Signal_Region
+#Split in new
+chr16	18198100	18494400	High_Signal_Region
+#Split in new
+chr16	21318100	21786000	High_Signal_Region
+#Partially deleted in new
+chr16	22634600	22975600	High_Signal_Region
+#Partially deleted in new
+chr16	27415600	27418200	High_Signal_Region
+#Split in new
+chr16	28620100	28796700	High_Signal_Region
+#Split in new
+chr16	30454300	30694600	High_Signal_Region
+#Split in new
+chr16	32410700	32860000	High_Signal_Region
+#Split in new
+chr16	33051200	33336000	High_Signal_Region
+#Split in new
+chr16	33396800	33803100	High_Signal_Region
+#Deleted in new
+chr16	33932600	34508900	High_Signal_Region
+#Deleted in new
+chr16	34545500	34746100	High_Signal_Region
+#Split in new
+chr16	34919600	35181500	High_Signal_Region
+#Split in new
+chr16	35856400	37857800	High_Signal_Region
+#Split in new
+chr16	39539300	52197600	High_Signal_Region
+#Split in new
+chr16	80184100	80475800	High_Signal_Region
+#Partially deleted in new
+chr16	87637700	87639800	High_Signal_Region
+#Partially deleted in new
+chr16	95086900	95088700	High_Signal_Region
+#Partially deleted in new
+chr16	95700700	95732800	High_Signal_Region
+#Partially deleted in new
+chr16	96186700	96330300	High_Signal_Region
+#Partially deleted in new
+chr17	0	46800	High_Signal_Region
+#Partially deleted in new
+chr17	370000	397900	High_Signal_Region
+#Partially deleted in new
+chr17	6088200	6093800	High_Signal_Region
+#Split in new
+chr17	16627700	16812000	High_Signal_Region
+#Partially deleted in new
+chr17	17405100	17407000	High_Signal_Region
+#Split in new
+chr17	18973500	19185700	High_Signal_Region
+#Partially deleted in new
+chr17	21959500	22249600	High_Signal_Region
+#Partially deleted in new
+chr17	23037200	23094700	High_Signal_Region
+#Split in new
+chr17	23433900	27565200	High_Signal_Region
+#Split in new
+chr17	37108900	37441900	High_Signal_Region
+#Split in new
+chr17	38896700	39168700	High_Signal_Region
+#Split in new
+chr17	44086700	44170400	High_Signal_Region
+#Partially deleted in new
+chr17	46340500	46484500	High_Signal_Region
+#Partially deleted in new
+chr17	56375900	56383800	High_Signal_Region
+#Partially deleted in new
+chr17	81215000	81216800	High_Signal_Region
+#Partially deleted in new
+chr17	81645900	81650600	High_Signal_Region
+#Partially deleted in new
+chr17	82158400	82160300	High_Signal_Region
+#Partially deleted in new
+chr17	83448400	83459400	High_Signal_Region
+#Split in new
+chr17	83781500	84060700	High_Signal_Region
+#Partially deleted in new
+chr17	84227900	84276500	High_Signal_Region
+#Split in new
+chr18	0	274000	Low_Mappability
+#Partially deleted in new
+chr18	15524500	15580600	High_Signal_Region
+#Split in new
+chr18	15629500	21138300	High_Signal_Region
+#Partially deleted in new
+chr18	57226300	57227600	High_Signal_Region
+#Partially deleted in new
+chr18	77483700	77485800	High_Signal_Region
+#Partially deleted in new
+chr18	78745200	78749100	High_Signal_Region
+#Split in new
+chr18	79248900	79287500	High_Signal_Region
+#Partially deleted in new
+chr18	80538900	80542500	High_Signal_Region
+#Partially deleted in new
+chr19	0	222200	High_Signal_Region
+#Partially deleted in new
+chr19	1598600	1600300	High_Signal_Region
+#Partially deleted in new
+chr19	3308100	3310700	High_Signal_Region
+#Partially deleted in new
+chr19	7443300	7451900	High_Signal_Region
+#Split in new
+chr19	8737200	8912100	High_Signal_Region
+#Partially deleted in new
+chr19	15905000	15914400	High_Signal_Region
+#Partially deleted in new
+chr19	16062600	16066900	High_Signal_Region
+#Split in new
+chr19	24546000	25211900	High_Signal_Region
+#Deleted in new
+chr19	25235500	25299600	High_Signal_Region
+#Deleted in new
+chr19	25685600	25797200	High_Signal_Region
+#Split in new
+chr19	25827400	29776700	High_Signal_Region
+#Partially deleted in new
+chr19	30348500	30350400	High_Signal_Region
+#Split in new
+chr19	38818100	38984100	High_Signal_Region
+#Split in new
+chr19	39945100	40119800	High_Signal_Region
+#Split in new
+chr19	41555200	41602800	Low_Mappability
+#Split in new
+chr19	50734400	50951100	High_Signal_Region
+#Split in new
+chr19	53091000	53227500	High_Signal_Region
+#Partially deleted in new
+chr19	59839000	59841000	High_Signal_Region
+#Partially deleted in new
+chr19	61634900	61707100	High_Signal_Region
+#Deleted in new
+chr2	0	3300	High_Signal_Region
+#Partially deleted in new
+chr2	201200	207500	High_Signal_Region
+#Partially deleted in new
+chr2	1105300	1111900	High_Signal_Region
+#Partially deleted in new
+chr2	3748000	3749600	High_Signal_Region
+#Partially deleted in new
+chr2	5022700	5045000	High_Signal_Region
+#Partially deleted in new
+chr2	11144700	11146100	High_Signal_Region
+#Partially deleted in new
+chr2	64383100	64385400	High_Signal_Region
+#Partially deleted in new
+chr2	68456300	68464500	High_Signal_Region
+#Partially deleted in new
+chr2	72028500	72034800	High_Signal_Region
+#Split in new
+chr2	87270600	87443300	High_Signal_Region
+#Split in new
+chr2	89244300	90502600	High_Signal_Region
+#Split in new
+chr2	90811200	91403200	High_Signal_Region
+#Split in new
+chr2	91441800	91918300	High_Signal_Region
+#Split in new
+chr2	92317000	95005900	High_Signal_Region
+#Split in new
+chr2	96280500	96399900	Low_Mappability
+#Split in new
+chr2	96506900	96570400	High_Signal_Region
+#Split in new
+chr2	97718600	97989700	High_Signal_Region
+#Split in new
+chr2	110202500	110564500	High_Signal_Region
+#Partially deleted in new
+chr2	130110500	130116700	Low_Mappability
+#Partially deleted in new
+chr2	132830300	132832700	High_Signal_Region
+#Partially deleted in new
+chr2	143251300	143270700	High_Signal_Region
+#Partially deleted in new
+chr2	159251200	159258200	High_Signal_Region
+#Split in new
+chr2	169323000	169345800	High_Signal_Region
+#Partially deleted in new
+chr2	181390400	181397400	High_Signal_Region
+#Partially deleted in new
+chr2	206881800	206882800	High_Signal_Region
+#Partially deleted in new
+chr2	218293000	218294600	High_Signal_Region
+#Partially deleted in new
+chr2	241136200	241137900	High_Signal_Region
+#Partially deleted in new
+chr2	241277500	241285100	High_Signal_Region
+#Partially deleted in new
+chr2	242515700	242521100	High_Signal_Region
+#Partially deleted in new
+chr2	242620700	242696700	High_Signal_Region
+#Deleted in new
+chr20	100	99600	High_Signal_Region
+#Partially deleted in new
+chr20	1305500	1308500	High_Signal_Region
+#Partially deleted in new
+chr20	1893500	1906100	High_Signal_Region
+#Partially deleted in new
+chr20	20369400	20416400	High_Signal_Region
+#Split in new
+chr20	25830500	25867600	High_Signal_Region
+#Split in new
+chr20	26386900	29519000	High_Signal_Region
+#Split in new
+chr20	31625400	31635200	High_Signal_Region
+#Split in new
+chr20	32003800	32884700	High_Signal_Region
+#Partially deleted in new
+chr20	50356800	50361400	High_Signal_Region
+#Partially deleted in new
+chr20	54975300	54976600	High_Signal_Region
+#Partially deleted in new
+chr20	59975900	59978300	High_Signal_Region
+#Partially deleted in new
+chr20	65510300	65513500	High_Signal_Region
+#Partially deleted in new
+chr20	65992900	65996700	High_Signal_Region
+#Partially deleted in new
+chr20	66109000	66210200	High_Signal_Region
+#Deleted in new
+chr21	0	280600	High_Signal_Region
+#Deleted in new
+chr21	399400	2550300	High_Signal_Region
+#Split in new
+chr21	2690000	5824000	High_Signal_Region
+#Deleted in new
+chr21	6426700	6479300	High_Signal_Region
+#Deleted in new
+chr21	6665300	6908800	High_Signal_Region
+#Deleted in new
+chr21	7431400	7747600	High_Signal_Region
+#Split in new
+chr21	7776900	9432400	High_Signal_Region
+#Split in new
+chr21	9452600	10667200	High_Signal_Region
+#Split in new
+chr21	10725000	10815200	High_Signal_Region
+#Partially deleted in new
+chr21	10848300	11435700	High_Signal_Region
+#Split in new
+chr21	38411000	38426300	High_Signal_Region
+#Partially deleted in new
+chr21	45068700	45090600	High_Signal_Region
+#Deleted in new
+chr22	500	4308200	High_Signal_Region
+#Deleted in new
+chr22	4334200	5803300	High_Signal_Region
+#Deleted in new
+chr22	5881600	6007500	High_Signal_Region
+#Deleted in new
+chr22	6528100	7087500	High_Signal_Region
+#Deleted in new
+chr22	7108200	7149400	High_Signal_Region
+#Deleted in new
+chr22	7189400	7262000	High_Signal_Region
+#Deleted in new
+chr22	7325300	7426200	High_Signal_Region
+#Deleted in new
+chr22	7553400	7582600	High_Signal_Region
+#Deleted in new
+chr22	7729700	7738100	High_Signal_Region
+#Deleted in new
+chr22	8150900	8152500	High_Signal_Region
+#Deleted in new
+chr22	8944500	8951700	High_Signal_Region
+#Deleted in new
+chr22	9047800	9071400	High_Signal_Region
+#Deleted in new
+chr22	10301600	10324000	High_Signal_Region
+#Split in new
+chr22	10424100	11259700	High_Signal_Region
+#Split in new
+chr22	11322100	11504200	High_Signal_Region
+#Deleted in new
+chr22	11715500	11819700	High_Signal_Region
+#Deleted in new
+chr22	11844200	11864700	High_Signal_Region
+#Split in new
+chr22	11940600	15944900	High_Signal_Region
+#Split in new
+chr22	18848200	19271400	High_Signal_Region
+#Partially deleted in new
+chr22	20720300	20764000	High_Signal_Region
+#Split in new
+chr22	21786800	21856500	High_Signal_Region
+#Partially deleted in new
+chr22	51307500	51324700	High_Signal_Region
+#Partially deleted in new
+chr3	0	3100	High_Signal_Region
+#Partially deleted in new
+chr3	952600	954000	High_Signal_Region
+#Partially deleted in new
+chr3	12637700	12666400	High_Signal_Region
+#Partially deleted in new
+chr3	37698700	37713000	Low_Mappability
+#Partially deleted in new
+chr3	38080300	38090600	High_Signal_Region
+#Partially deleted in new
+chr3	50340000	50341800	High_Signal_Region
+#Partially deleted in new
+chr3	82618700	82621600	High_Signal_Region
+#Partially deleted in new
+chr3	90566400	90568400	High_Signal_Region
+#Split in new
+chr3	90802900	91491100	High_Signal_Region
+#Split in new
+chr3	91739400	96503700	High_Signal_Region
+#Partially deleted in new
+chr3	104145100	104160600	High_Signal_Region
+#Partially deleted in new
+chr3	142067100	142084400	High_Signal_Region
+#Partially deleted in new
+chr3	154181700	154187700	High_Signal_Region
+#Partially deleted in new
+chr3	178148600	178176900	High_Signal_Region
+#Split in new
+chr3	198176800	198213500	High_Signal_Region
+#Split in new
+chr3	198328700	198421600	High_Signal_Region
+#Partially deleted in new
+chr3	198569500	198590100	High_Signal_Region
+#Split in new
+chr3	198640800	198716100	High_Signal_Region
+#Partially deleted in new
+chr3	200186400	200192700	High_Signal_Region
+#Partially deleted in new
+chr3	200861300	201105900	High_Signal_Region
+#Partially deleted in new
+chr4	0	68400	High_Signal_Region
+#Partially deleted in new
+chr4	548300	566200	High_Signal_Region
+#Split in new
+chr4	1425500	1439700	High_Signal_Region
+#Partially deleted in new
+chr4	5675500	5700000	High_Signal_Region
+#Partially deleted in new
+chr4	5975000	5978000	High_Signal_Region
+#Partially deleted in new
+chr4	8600500	8620400	High_Signal_Region
+#Split in new
+chr4	9118300	9389700	High_Signal_Region
+#Partially deleted in new
+chr4	40264700	40269600	High_Signal_Region
+#Split in new
+chr4	49035400	49353800	High_Signal_Region
+#Split in new
+chr4	49374100	55300200	High_Signal_Region
+#Split in new
+chr4	62369800	62378900	High_Signal_Region
+#Partially deleted in new
+chr4	115009800	115016800	High_Signal_Region
+#Partially deleted in new
+chr4	133314800	133324400	High_Signal_Region
+#Partially deleted in new
+chr4	135029600	135087600	High_Signal_Region
+#Partially deleted in new
+chr4	157469100	157504300	High_Signal_Region
+#Split in new
+chr4	169916500	169937500	High_Signal_Region
+#Partially deleted in new
+chr4	170619400	170640100	High_Signal_Region
+#Partially deleted in new
+chr4	184578800	184583000	High_Signal_Region
+#Partially deleted in new
+chr4	187193800	187196700	High_Signal_Region
+#Partially deleted in new
+chr4	189167300	189169300	High_Signal_Region
+#Partially deleted in new
+chr4	192586300	192591300	High_Signal_Region
+#Partially deleted in new
+chr4	192652200	192666400	High_Signal_Region
+#Partially deleted in new
+chr4	192914100	192916600	High_Signal_Region
+#Partially deleted in new
+chr4	193196200	193208700	High_Signal_Region
+#Partially deleted in new
+chr4	193239800	193246900	High_Signal_Region
+#Split in new
+chr4	193389900	193574900	High_Signal_Region
+#Partially deleted in new
+chr5	546600	563400	High_Signal_Region
+#Partially deleted in new
+chr5	974700	977700	High_Signal_Region
+#Partially deleted in new
+chr5	1234400	1244200	High_Signal_Region
+#Partially deleted in new
+chr5	1483000	1484300	High_Signal_Region
+#Partially deleted in new
+chr5	3241600	3243600	High_Signal_Region
+#Split in new
+chr5	17457000	17599700	High_Signal_Region
+#Split in new
+chr5	21464300	21620000	High_Signal_Region
+#Split in new
+chr5	34300400	34495200	High_Signal_Region
+#Deleted in new
+chr5	46689300	46787000	High_Signal_Region
+#Split in new
+chr5	46833100	50056300	High_Signal_Region
+#Split in new
+chr5	50516300	50962200	High_Signal_Region
+#Split in new
+chr5	65286000	65300900	High_Signal_Region
+#Split in new
+chr5	70359800	71839100	High_Signal_Region
+#Partially deleted in new
+chr5	90629100	90641700	High_Signal_Region
+#Deleted in new
+chr5	138200300	138206200	High_Signal_Region
+#Partially deleted in new
+chr5	158529300	158532200	High_Signal_Region
+#Partially deleted in new
+chr5	178510300	178531600	High_Signal_Region
+#Partially deleted in new
+chr5	179136300	179138100	High_Signal_Region
+#Partially deleted in new
+chr6	0	17000	High_Signal_Region
+#Partially deleted in new
+chr6	681600	693100	High_Signal_Region
+#Partially deleted in new
+chr6	34220600	34222200	High_Signal_Region
+#Partially deleted in new
+chr6	44014600	44016700	High_Signal_Region
+#Partially deleted in new
+chr6	58288400	61059300	High_Signal_Region
+#Deleted in new
+chr6	65444300	65446500	High_Signal_Region
+#Partially deleted in new
+chr6	66904500	66907600	High_Signal_Region
+#Split in new
+chr6	69449700	69467100	High_Signal_Region
+#Partially deleted in new
+chr6	73271200	73311700	High_Signal_Region
+#Partially deleted in new
+chr6	75136200	75139700	High_Signal_Region
+#Partially deleted in new
+chr6	98155800	98162600	High_Signal_Region
+#Partially deleted in new
+chr6	143315000	143329900	High_Signal_Region
+#Deleted in new
+chr6	159018000	159019200	High_Signal_Region
+#Split in new
+chr6	161864500	161994100	High_Signal_Region
+#Partially deleted in new
+chr6	169575600	169581000	High_Signal_Region
+#Partially deleted in new
+chr6	170185700	170188500	High_Signal_Region
+#Partially deleted in new
+chr6	171253600	171258300	High_Signal_Region
+#Partially deleted in new
+chr6	171505500	171508300	High_Signal_Region
+#Split in new
+chr6	171756900	171771600	High_Signal_Region
+#Partially deleted in new
+chr6	171837400	171840200	High_Signal_Region
+#Partially deleted in new
+chr6	171866900	171883400	High_Signal_Region
+#Partially deleted in new
+chr6	171985500	172126600	High_Signal_Region
+#Partially deleted in new
+chr7	0	150000	High_Signal_Region
+#Split in new
+chr7	317100	340000	High_Signal_Region
+#Partially deleted in new
+chr7	1008900	1011900	High_Signal_Region
+#Partially deleted in new
+chr7	1380900	1385100	High_Signal_Region
+#Partially deleted in new
+chr7	4090600	4095700	High_Signal_Region
+#Partially deleted in new
+chr7	35184800	35187400	High_Signal_Region
+#Split in new
+chr7	56528000	56607200	Low_Mappability
+#Partially deleted in new
+chr7	57042600	57082700	High_Signal_Region
+#Deleted in new
+chr7	58386900	58562300	High_Signal_Region
+#Split in new
+chr7	58618200	59172000	High_Signal_Region
+#Deleted in new
+chr7	59325200	59331100	High_Signal_Region
+#Split in new
+chr7	59497800	59827700	High_Signal_Region
+#Split in new
+chr7	60422100	63708100	High_Signal_Region
+#Partially deleted in new
+chr7	66675100	66820300	High_Signal_Region
+#Partially deleted in new
+chr7	73426000	73427800	High_Signal_Region
+#Split in new
+chr7	74172000	74502500	High_Signal_Region
+#Split in new
+chr7	76280800	76802900	High_Signal_Region
+#Partially deleted in new
+chr7	102200600	102205700	High_Signal_Region
+#Partially deleted in new
+chr7	102297800	102326900	High_Signal_Region
+#Deleted in new
+chr7	109507400	109513300	High_Signal_Region
+#Partially deleted in new
+chr7	139921400	139924600	High_Signal_Region
+#Split in new
+chr7	144877200	145153900	High_Signal_Region
+#Partially deleted in new
+chr7	156489800	156516700	High_Signal_Region
+#Deleted in new
+chr7	157075700	157077500	High_Signal_Region
+#Partially deleted in new
+chr7	159279300	159293100	High_Signal_Region
+#Split in new
+chr7	159536500	159568400	High_Signal_Region
+#Partially deleted in new
+chr7	159804900	159822600	High_Signal_Region
+#Partially deleted in new
+chr7	160430000	160432100	High_Signal_Region
+#Deleted in new
+chr7	160565300	160567400	High_Signal_Region
+#Partially deleted in new
+chr8	0	2200	High_Signal_Region
+#Split in new
+chr8	7056000	7638200	High_Signal_Region
+#Split in new
+chr8	11540700	12642900	High_Signal_Region
+#Split in new
+chr8	12674800	12874400	High_Signal_Region
+#Partially deleted in new
+chr8	16938400	16943500	High_Signal_Region
+#Split in new
+chr8	44216000	46348300	High_Signal_Region
+#Split in new
+chr8	57588600	57635600	High_Signal_Region
+#Partially deleted in new
+chr8	65111300	65112600	High_Signal_Region
+#Partially deleted in new
+chr8	84093500	84099700	High_Signal_Region
+#Split in new
+chr8	86081500	86946100	High_Signal_Region
+#Partially deleted in new
+chr8	139860600	139862600	Low_Mappability
+#Partially deleted in new
+chr8	142619500	142621500	High_Signal_Region
+#Partially deleted in new
+chr8	143010100	143011800	High_Signal_Region
+#Partially deleted in new
+chr8	143323400	143326000	High_Signal_Region
+#Partially deleted in new
+chr8	144810500	144823800	High_Signal_Region
+#Partially deleted in new
+chr8	145139500	145141900	High_Signal_Region
+#Partially deleted in new
+chr8	145549600	145551900	High_Signal_Region
+#Deleted in new
+chr8	146256900	146259300	Low_Mappability
+#Partially deleted in new
+chr9	0	33000	High_Signal_Region
+#Deleted in new
+chr9	397900	400300	High_Signal_Region
+#Partially deleted in new
+chr9	35933700	35936700	Low_Mappability
+#Split in new
+chr9	38866000	39006200	High_Signal_Region
+#Split in new
+chr9	39609500	41043200	High_Signal_Region
+#Deleted in new
+chr9	41073300	41299200	High_Signal_Region
+#Partially deleted in new
+chr9	41323200	41807500	High_Signal_Region
+#Split in new
+chr9	41833600	42212000	High_Signal_Region
+#Split in new
+chr9	42247000	42724400	High_Signal_Region
+#Split in new
+chr9	42744700	43183600	High_Signal_Region
+#Deleted in new
+chr9	44780300	44816200	Low_Mappability
+#Split in new
+chr9	44976700	47582800	High_Signal_Region
+#Deleted in new
+chr9	48051600	48061800	High_Signal_Region
+#Deleted in new
+chr9	48513700	48539600	High_Signal_Region
+#Deleted in new
+chr9	48582200	48692500	High_Signal_Region
+#Deleted in new
+chr9	48714800	48723900	High_Signal_Region
+#Deleted in new
+chr9	48760100	48793300	Low_Mappability
+#Deleted in new
+chr9	48889000	49114000	High_Signal_Region
+#Deleted in new
+chr9	49135800	74644300	High_Signal_Region
+#Deleted in new
+chr9	74688200	76527100	High_Signal_Region
+#Deleted in new
+chr9	77125200	77244800	Low_Mappability
+#Deleted in new
+chr9	77269500	77288400	High_Signal_Region
+#Split in new
+chr9	77320000	78539300	High_Signal_Region
+#Split in new
+chr9	79407100	80517000	High_Signal_Region
+#Split in new
+chr9	125235100	125318100	Low_Mappability
+#Partially deleted in new
+chr9	132861900	132864600	High_Signal_Region
+#Partially deleted in new
+chr9	149568700	149577400	Low_Mappability
+#Partially deleted in new
+chr9	149969200	149971900	High_Signal_Region
+#Partially deleted in new
+chr9	150428500	150617200	High_Signal_Region
